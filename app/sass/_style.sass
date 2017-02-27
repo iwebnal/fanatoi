@@ -10,3 +10,150 @@ a, a:hover, a:active, a:focus
 	color: #fff
 li
 	list-style: none
+
+a[href^=tel]
+	color: inherit
+	text-decoration: none
+
+.az-static
+	position: static !important
+
+.az-topmnu
+	background: #2e2d2f
+	height: 32px
+	font-size: 0
+	padding-top: 7px
+	position: relative
+
+.az-menu
+	position: absolute
+	border-top: 1px solid #fff
+	top: 100%
+	left: 0
+	width: 100%
+	z-index: 6
+	background: #2e2d2f
+	display: none
+	font-family: "RobotoCondensedLight"
+	font-size: 24px
+	line-height: 30px
+	color: #fff
+	padding-bottom: 15px
+	>li>a
+		color: #fff
+		display: inline-block
+		padding: 0 7px
+		width: 100%
+		height: 35px
+		line-height: 35px
+		i
+			transition: transform .3s ease-in-out
+			transform: rotate(0deg)
+		&:hover, &.active
+			background: #969696
+			color: #d4d4d4
+		&.active
+			i
+				transform: rotate(-90deg)
+	ul>li>a
+		color: #fff
+		display: inline-block
+		padding: 0 17px
+		width: 100%
+		height: 35px
+		line-height: 35px
+		font-size: 16px
+		white-space: nowrap
+		&:hover, &.active
+			background: #969696
+			color: #d4d4d4
+	ul
+		display: none
+.az-cart-menu, .az-user-menu
+	padding-left: 36px
+	height: 46px
+	display: inline-block
+	width: 100%
+	line-height: 46px
+	color: #fff
+	&:hover
+		color: #fff
+.az-cart-menu
+	text-transform: uppercase
+	background: #969696 url(../img/az-cart.png) no-repeat 7px center
+.az-user-menu
+	// text-transform: uppercase
+	background: url(../img/az-user.png) no-repeat 7px center
+.az-co
+	.az-inner-close
+		display: none
+	.az-inner-burger
+		display: inline-block
+.az-close
+	.az-inner-burger
+		display: none
+	.az-inner-close
+		display: inline-block
+
+
+.az-right-mob-menu
+	li
+		display: inline-block
+		margin-left: 18px
+		font-size: 0
+		vertical-align: top
+		position: relative
+		&:first-child
+			margin-left: 0
+
+.az-cart2
+	display: inline-block
+	margin-top: -7px
+	margin-right: -15px
+	padding-right: 15px
+	padding-left: 15px
+	padding-top: 7px
+	background: #e64797
+	height: 32px
+	.az-num
+		font-size: 14px
+		font-family: "ArimoBold"
+		color: #fff
+		vertical-align: top
+		margin-left: 10px
+		display: inline-block
+
+
+.az-search-clicked
+	display: block
+	position: absolute
+	top: 0
+	right: 0
+	width: 50px
+	opacity: 0
+	z-index: -1
+	transition: all 0.3s ease-in-out
+	padding-right: 20px
+	&.active
+		width: 130px
+		opacity: 1
+		z-index: 3
+		button[type="submit"]
+			z-index: 4
+	button[type="submit"]
+		border: none
+		background: none
+		position: absolute
+		top: 0
+		right: 0
+		padding: 0
+		width: 16px
+		// z-index: -1
+	input[type="text"]
+		margin-top: -2px
+		height: 20px
+		line-height: 20px
+		width: 100%
+		color: #4b2b24
+		font-family: "RobotoCondensedLight"
+		font-size: 14px
