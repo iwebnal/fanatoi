@@ -11,14 +11,158 @@ body
 	overflow-x: hidden
 .clear
 	clear: both
+
+
 //********************************************************************************
+.ah-news-wrapp
+	padding-bottom: 45px
+	border-bottom: 2px solid #ecf0f1
+
+
+	margin-bottom: 50px
+
+
+
+.ah-news-span
+	display: inline-block
+	font-family: "ArimoRegular", sans-serif
+	color: #fff
+	background: #2c82c9
+	padding: 5px 4px
+	margin-bottom: 19px
+.ah-news-text
+	display: block
+	font-family: "ArimoBold", sans-serif
+	color: #2c82c9
+	font-size: 16px
+	line-height: 20px
+	text-transform: uppercase
+	margin-top: 19px
+.ah-novelty-imgbox
+	width: 230px
+	height: 260px
+	margin: 0 auto
+	img
+		margin: 0 auto
+.ah-novelty-wrapp
+	border: 2px solid #ededed
+	padding: 25px 9px 10px 9px
+	text-align: center
+	cursor: pointer
+	background: #fff
+	box-shadow: 2.5px 4.3px 0 rgba(0, 0, 0, 0.1)
+	&:hover
+		border: 2px solid #2c82c9
+		transition: border 0.6s ease 0s
+.ah-novelty-title
+	display: block
+	font-family: "ArimoBold", sans-serif
+	font-size: 16px
+	line-height: 20px
+	color: #2c82c9
+	text-transform: uppercase
+	margin-top: 20px
+.ah-novelty-subtitle
+	display: block
+	font-family: "ArimoRegular", sans-serif
+	font-size: 16px
+	line-height: 20px
+	color: #2e2d2f
+.ah-novelty-table
+	display: table
+	width: 100%
+	margin-top: 12px
+.ah-novelty-tableft
+	display: table-cell
+	width: 45%
+	vertical-align: bottom
+.ah-novelty-tabright
+	display: table-cell
+	width: 55%
+	vertical-align: bottom
+.ah-tableft-span
+	display: block
+	font-family: "ArimoBold", sans-serif
+	line-height: 18px
+	color: #ff3600
+	font-size: 14px
+	text-decoration: line-through
+	text-align: left
+	span
+		font-size: 12px
+.ah-tableft-span1
+	display: block
+	font-family: "ArimoBold", sans-serif
+	line-height: 16px
+	color: #2c82c9
+	font-size: 26px
+	text-align: left
+	span
+		font-size: 14px
+.ah-tabright-link
+	display: block
+	padding: 10px 0px
+	text-align: center
+	font-family: "ArimoBold", sans-serif
+	color: #282729
+	font-size: 14px
+	line-height: 20px
+	text-transform: uppercase
+	background: url(../img/novelty-icon.png) calc(0% + 9px) center no-repeat #fba026
+	box-shadow: inset 0 -5px 0 #db8818
+	&:hover
+		color: #fff
+		background: url(../img/novelty-icon1.png) calc(0% + 9px) center no-repeat #fba026
+.arrow-left
+	display: block
+	position: absolute
+	width: 20px
+	height: 30px
+	left: 4%
+	top: 43%
+	background: url(../img/ah-slide-left.png) center center no-repeat rgba(0,0,0,0.2)
+	padding: 25px 25px
+	&:hover
+		background: url(../img/ah-slleft-y.png) center center no-repeat rgba(0,0,0,0.2)
+		transition: background 0.6s ease 0s
+.arrow-right
+	display: block
+	position: absolute
+	width: 20px
+	height: 30px
+	right: 4%
+	top: 43%
+	background: url(../img/ah-slide-right.png) center center no-repeat rgba(0,0,0,0.2)
+	padding: 25px 25px
+	&:hover
+		background: url(../img/ah-slright-y.png) center center no-repeat rgba(0,0,0,0.2)
+		transition: background 0.6s ease 0s
 .ah-slider
 	position: relative
 	background: url(../img/ah-slider-fon.jpg) top center no-repeat
 	background-size: cover
-	height: 381px
-
-	margin-top: 100px
+	.owl-stage-outer
+		overflow: inherit !important
+	.owl-dots
+		position: relative
+		float: right
+		margin-top: -25px
+		margin-right: 70px
+		z-index: 99
+		.owl-dot
+			display: inline-block
+			margin-right: 12px
+			width: 17px
+			height: 17px
+			background: url(../img/ah-dot1.png) center center no-repeat
+		.active
+			width: 17px
+			height: 17px
+			background: url(../img/ah-dot2.png) center center no-repeat
+	.item
+		position: relative
+		height: 381px
+		width: 100%
 .ah-slider-imgbox
 	position: absolute
 	top: -5%

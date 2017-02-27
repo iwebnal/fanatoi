@@ -33,6 +33,8 @@
 <body>
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/ah-slider.php'); ?>
+	<?php require_once('includes/novelty.php'); ?>
+	<?php require_once('includes/news.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	<div class="hidden">
