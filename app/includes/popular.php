@@ -1,14 +1,14 @@
-<section class="ah-novelty">
+<section class="ah-popular">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<span class="az-title-wrap"><span class="az-title">Новинки</span></span>
+				<span class="az-title-wrap"><span class="az-title">Популярные товары</span></span>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 				<div class="ah-novelty-wrapp">
-					<div class="ah-novelty-imgbox">
-						<img src="img/novelty1.jpg" class="img-responsive" alt="novelty1">
+					<div class="ah-popular-imgbox">
+						<img src="img/popular1.jpg" class="img-responsive" alt="popular1">
 					</div>
 					<span class="ah-novelty-title">Фигурка Железный голем</span>
 					<span class="ah-novelty-subtitle">Майнкрафт, набор</span>
@@ -25,8 +25,8 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-4 hidden-xs">
 				<div class="ah-novelty-wrapp">
-					<div class="ah-novelty-imgbox">
-						<img src="img/novelty2.jpg" class="img-responsive" alt="novelty2">
+					<div class="ah-popular-imgbox">
+						<img src="img/popular2.jpg" class="img-responsive" alt="popular2">
 					</div>
 					<span class="ah-novelty-title">Фигурка Железный голем</span>
 					<span class="ah-novelty-subtitle">Майнкрафт, набор</span>
@@ -43,8 +43,8 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-4 hidden-xs">
 				<div class="ah-novelty-wrapp">
-					<div class="ah-novelty-imgbox">
-						<img src="img/novelty3.jpg" class="img-responsive" alt="novelty3">
+					<div class="ah-popular-imgbox">
+						<img src="img/popular3.jpg" class="img-responsive" alt="popular3">
 					</div>
 					<span class="ah-novelty-title">Фигурка Железный голем</span>
 					<span class="ah-novelty-subtitle">Майнкрафт, набор</span>
@@ -61,8 +61,8 @@
 			</div>
 			<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
 				<div class="ah-novelty-wrapp">
-					<div class="ah-novelty-imgbox">
-						<img src="img/novelty4.jpg" class="img-responsive" alt="novelty4">
+					<div class="ah-popular-imgbox">
+						<img src="img/popular4.jpg" class="img-responsive" alt="popular4">
 					</div>
 					<span class="ah-novelty-title">Фигурка Железный голем</span>
 					<span class="ah-novelty-subtitle">Майнкрафт, набор</span>
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<a href="#" class="ah-novelty-link">Смотреть все новинки</a>
+				<a href="#" class="ah-novelty-link">Все популярные товары</a>
 			</div>
 		</div>
 	</div>

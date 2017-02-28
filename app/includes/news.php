@@ -1,6 +1,10 @@
 <section class="ah-news">
 	<div class="container">
 		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<span class="az-title-wrap"><span class="az-title">Новости</span></span>
+			</div>
+			<div class="clearfix"></div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="ah-news-wrapp">
 					<span class="ah-news-span">23.02.2015</span>

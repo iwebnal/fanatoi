@@ -14,6 +14,99 @@ body
 
 
 //********************************************************************************
+.ah-textbox
+	padding: 35px 0px
+.ah-textbox-wrapp
+	p
+		display: block
+		font-family: "ArimoRegular", sans-serif
+		font-size: 16px
+		color: #000
+		line-height: 26px
+		margin: 0
+		a
+			font-family: "ArimoRegular", sans-serif
+			color: #2c82c9
+			line-height: 26px
+			text-decoration: underline
+			&:hover
+				color: #2c82c9
+				text-decoration: underline
+	.ah-textbox-text
+		margin-top: 17px
+.ah-advantages-title
+	display: block
+	font-family: "ArimoBold", sans-serif
+	color: #2e2d2f
+	font-size: 24px
+	line-height: 22px
+	text-transform: uppercase
+	margin-bottom: 15px
+	text-align: center
+.ah-advantages
+	background: #f4f4f4
+	height: auto
+	padding: 25px 0px
+.ah-advantages-wrapp
+	text-align: center
+.ah-advantages-imgbox
+	width: 165px
+	height: 105px
+	margin: 0 auto
+	img
+		margin: 0 auto
+.ah-advantages-span
+	display: block
+	font-family: "ArimoBold", sans-serif
+	color: #2c82c9
+	font-size: 14px
+	line-height: 22px
+	text-transform: uppercase
+	margin-top: 6px
+/*Заголовок*/
+.az-title-wrap
+	display: block
+	text-align: center
+	position: relative
+	z-index: 2
+	font-size: 0
+	margin-bottom: 15px
+	&.style2
+		&::before
+			bottom: 12px
+	&.style3
+		margin-bottom: 10px
+	&.style4
+		&::before
+			bottom: 6px
+		margin-top: 30px
+		margin-bottom: 20px
+		.az-title
+			font-size: 18px
+			text-transform: uppercase
+			padding: 0 5px
+	&::before
+		content: ''
+		bottom: 8px
+		position: absolute
+		width: 100%
+		height: 1px
+		background: #e3e3e3
+		left: 0
+	.az-title
+		font-family: "ArimoBold", sans-serif
+		font-size: 24px
+		color: #333333
+		display: inline-block
+		z-index: 3
+		background: #fff
+		position: relative
+		z-index: 3
+		padding: 0 14px
+		text-transform: uppercase
+
+/*Заголовок*/
+
 .ah-news-wrapp
 	padding-bottom: 45px
 	border-bottom: 2px solid #ecf0f1
@@ -38,9 +131,33 @@ body
 	line-height: 20px
 	text-transform: uppercase
 	margin-top: 19px
+.ah-novelty
+	padding: 45px 0px 10px 0px
+.ah-popular
+	padding: 15px 0px 10px 0px
+.ah-novelty-link
+	float: right
+	display: inline-block
+	font-family: "ArimoRegular", sans-serif
+	color: #448ccd
+	font-size: 14px
+	line-height: 41px
+	text-decoration: underline
+	padding-right: 10px
+	background: url(../img/novelty-arr.png) right center no-repeat
+	&:hover
+		color: #448ccd
+		text-decoration: underline
+
 .ah-novelty-imgbox
 	width: 230px
 	height: 260px
+	margin: 0 auto
+	img
+		margin: 0 auto
+.ah-popular-imgbox
+	width: 250px
+	height: 245px
 	margin: 0 auto
 	img
 		margin: 0 auto
