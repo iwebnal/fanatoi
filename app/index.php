@@ -27,7 +27,7 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -52,6 +52,44 @@
 		</form>
 	</div>
 
+	<div class="popup">
+		<div class="form">
+			<span class="popup-title">Заказать обратный звонок</span>
+			<div class="form-item error">
+				<label for="uname">Ваше имя:</label>
+				<input type="text" name="uname" id="uname" placeholder="Введите имя:">
+			</div>
+			<div class="form-item">
+				<label for="email">Ваш e-mail:</label>
+				<input type="text" name="email" id="email" placeholder="Введите ваш e-mail:">
+			</div>
+			<div class="form-item">
+				<label for="tel">Ваш телефон:</label>
+				<input type="text" name="tel" id="tel" placeholder="+7 (---) --- -- --">
+			</div>
+			<div class="form-item">
+				<label for="message">Ваше сообщение:</label>
+				<textarea name="message" id="message" placeholder=""></textarea>
+			</div>
+			<div class="form-item">
+				<label for="az-select">Выпадшка:</label>
+				<select class="selectpicker" data-style="az-btn" data-width="100%" name="select" id="az-select">
+				  <option>Mustard</option>
+				  <option>Ketchup</option>
+				  <option>Relish</option>
+				</select>
+			</div>
+			<div class="form-item">
+				<label for="az-checkbox">Чекбокс:</label>
+				<span class="az-checkbox">
+					<input type="checkbox" name="az-checkbox" id="az-checkbox">
+					<label for="az-checkbox"></label>
+				</span>
+				
+			</div>
+		</div>
+	</div>
+			
 	<script src="js/scripts.min.js"></script>
 
 </body>
