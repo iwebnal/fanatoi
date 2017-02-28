@@ -34,6 +34,9 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/ah-slider.php'); ?>
 	<?php require_once('includes/novelty.php'); ?>
+	<?php require_once('includes/popular.php'); ?>
+	<?php require_once('includes/advantages.php'); ?>
+	<?php require_once('includes/textbox.php'); ?>
 	<?php require_once('includes/news.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
