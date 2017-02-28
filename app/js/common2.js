@@ -22,9 +22,15 @@ $(function() {
           } else {
               $('.az-menu>li>a').removeClass('active');
               $(this).addClass('active');
-              return false;
+              if($(this).next('ul').length>0){
+                return false;
+              }
           }
+      } else{
+        if($(this).next('ul').length>0){
+          return false;
+        }
       }
-      return false;
+      // return false;
   });
 });

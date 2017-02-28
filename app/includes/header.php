@@ -40,17 +40,16 @@
 					</ul>
 				</div>
 				<ul class="az-right-mob-menu pull-right">
-					<li class="hidden-xs hidden-sm hidden-md">
-						<!-- <a href="#"> -->
+					<!-- <li class="hidden-xs hidden-sm hidden-md ">
 							<img src="img/az-user.png" alt="user"><a href="#">Вход</a> / <a href="#">Регистрация</a>
-						<!-- </a> -->
-					</li>
+					</li> -->
 					<li>
 						<a href="#">
 							<span class="az-cart2">
 								<img src="img/az-cart.png" alt="cart" class="az-img-cart2">
 								<span class="az-num">: 12</span>
 							</span>
+							<span class="az-cart4">Корзина:&nbsp;&nbsp;12</span>
 							<span class="az-cart3">
 								<span class="az-sum hidden-xs">19 790 руб.</span>
 								<span class="az-bye hidden-xs">Оформить заказ</span>

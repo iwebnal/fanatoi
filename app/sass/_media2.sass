@@ -190,9 +190,51 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
+	.az-right-mob-menu
+		height: 40px
 	.az-cart2
+		padding-left: 10px
+		padding-right: 10px
 		.az-num
 			display: none
+	.az-menu
+		>li
+			padding: 0 15px 0 0
+			height: 40px
+			line-height: 40px
+			>a
+				color: #f7f7f7
+				font-size: 14px
+			&:hover
+				ul
+					top: 100%
+					opacity: 1
+					z-index: 6
+		>div
+			display: inline-block
+	.az-user-menu
+		display: inline-block !important
+		border: none
+		font-size: 14px
+		line-height: 40px
+		height: 40px
+		margin-left: 80px
+		a:hover
+			text-decoration: underline
+	.az-cart4
+		font-size: 14px
+		font-family: "ArimoBold"
+		height: 40px
+		line-height: 40px
+		text-transform: uppercase
+		color: #282729
+		background: #fba026
+		display: inline-block
+		vertical-align: top
+		padding: 0 8px
+	.az-menu-wrapp
+		width: calc(100% - 300px)
+		margin-bottom: 100px
 	/**/
 
 /* Large Devices, Wide Screens */
