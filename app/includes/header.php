@@ -86,7 +86,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
 				<div class="az-tel">
 					<a href="tel:+78004460320" class="az-tel-num">+7 800 <strong>446-03-20</strong></a><br>
-					<a href="#" class="az-call-back">Заказать обратный звонок</a>
+					<a href="#call-back" class="popup-with-move-anim az-call-back">Заказать обратный звонок</a>
 				</div>
 			</div>
 		</div>
@@ -116,4 +116,3 @@
 </section>
 
 
-<!-- <div class="g-recaptcha" data-sitekey="6LflIhcUAAAAAKNbZ6X5Go4fEdFLd9_9Fsc4bswE"></div> -->

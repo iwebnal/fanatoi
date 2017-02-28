@@ -15,6 +15,9 @@ a[href^=tel]
 	color: inherit
 	text-decoration: none
 
+.az-center
+	text-align: center
+
 .az-static
 	position: static !important
 
@@ -308,10 +311,12 @@ a[href^=tel]
 
 /*popup*/
 .popup
+	background: #fff
 	padding: 40px 100px
 	border: 3px solid #2c82c9
 	max-width: 588px
 	margin-bottom: 300px
+	margin: 20px auto
 	.popup-title
 		font-size: 24px
 		font-family: "ArimoBold"
@@ -343,6 +348,32 @@ a[href^=tel]
 		resize: none
 		line-height: 20px
 		padding: 10px
+	button[type="submit"]
+		padding-left: 0
+		background: #fba026
+		height: 40px
+		line-height: 40px
+		font-size: 14px
+		font-family: "ArimoBold"
+		color: #282729
+		position: relative
+		border-radius: 0
+		border: none
+		display: inline-block
+		max-width: 216px
+		width: 100%
+		text-transform: uppercase
+		letter-spacing: 0.15em
+		margin: 0 auto
+		&::before
+			content: ""
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 5px
+			background: #db8818
+
 .error
 	color: #d14841 !important
 	*
@@ -368,7 +399,7 @@ input.error, textarea.error
 		right: 0
 		width: 50%
 		margin: 0
-		min-width: 50% !important
+		min-width: 200px !important
 		border: 1px solid #afafaf
 		>ul
 			>li
@@ -393,4 +424,82 @@ input.error, textarea.error
 		height: 30px
 		display: inline-block
 		border: 1px solid #afafaf
+		position: relative
+	input[type="checkbox"]:checked~label
+		&::before
+			content: ""
+			position: absolute
+			top: 5px
+			left: 5px
+			width: 29px
+			height: 23px
+			background: url(../img/az-checkbox.png) no-repeat center center
 
+.az-captcha-wrap
+	display: block
+	text-align: center
+	margin-bottom: 20px
+	.az-captcha
+		display: inline-block
+
+/**
+ * Fade-move animation for second dialog
+ */
+
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog
+	opacity: 0
+	-webkit-transition: all 0.2s ease-out
+	-moz-transition: all 0.2s ease-out
+	-o-transition: all 0.2s ease-out
+	transition: all 0.2s ease-out
+	-webkit-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg )
+	-moz-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg )
+	-ms-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg )
+	-o-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg )
+	transform: translateY(-20px) perspective( 600px ) rotateX( 10deg )
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog
+	opacity: 1
+	-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 )
+	-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 )
+	-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 )
+	-o-transform: translateY(0) perspective( 600px ) rotateX( 0 )
+	transform: translateY(0) perspective( 600px ) rotateX( 0 )
+
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog
+	opacity: 0
+	-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg )
+	-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg )
+	-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg )
+	-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg )
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg )
+
+
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg
+	opacity: 0
+	-webkit-transition: opacity 0.3s ease-out
+	-moz-transition: opacity 0.3s ease-out
+	-o-transition: opacity 0.3s ease-out
+	transition: opacity 0.3s ease-out
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg
+	opacity: 0.8
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg
+	opacity: 0
+
+.az-close-btn
+	position: absolute
+	top: 4px
+	right: 4px
+	width: 30px
+	height: 30px
+	background: url(../img/az-close-btn.png) no-repeat center !important
+	border: none

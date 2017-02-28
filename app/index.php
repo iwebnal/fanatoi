@@ -40,55 +40,56 @@
 	<?php require_once('includes/news.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
-	<div class="hidden">
-		<form id="small-dialog" class="zoom-anim-dialog common-form">
-			<div class="ah-upimg">
-				<img src="img/ah-popimg.png" style="width: 110px; height: 120px;" alt="ah-popimg.png">
-			</div>
-			<span class="form-title">ОСТАВЬТЕ ЗАЯВКУ</span>
-			<span class="form-subtitle">И НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В ТЕЧЕНИИ ОДНОЙ МИНУТЫ</span>
-			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
-			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
-		</form>
-	</div>
+        <!-- <a href="#call-back" id="az-thanks" class="az-button popup-with-move-anim">выбрать</a> -->
 
-	<div class="popup">
-		<div class="form">
-			<span class="popup-title">Заказать обратный звонок</span>
-			<div class="form-item error">
-				<label for="uname">Ваше имя:</label>
-				<input type="text" name="uname" id="uname" placeholder="Введите имя:">
-			</div>
-			<div class="form-item">
-				<label for="email">Ваш e-mail:</label>
-				<input type="text" name="email" id="email" placeholder="Введите ваш e-mail:">
-			</div>
-			<div class="form-item">
-				<label for="tel">Ваш телефон:</label>
-				<input type="text" name="tel" id="tel" placeholder="+7 (---) --- -- --">
-			</div>
-			<div class="form-item">
-				<label for="message">Ваше сообщение:</label>
-				<textarea name="message" id="message" placeholder=""></textarea>
-			</div>
-			<div class="form-item">
-				<label for="az-select">Выпадшка:</label>
-				<select class="selectpicker" data-style="az-btn" data-width="100%" name="select" id="az-select">
-				  <option>Mustard</option>
-				  <option>Ketchup</option>
-				  <option>Relish</option>
-				</select>
-			</div>
-			<div class="form-item">
-				<label for="az-checkbox">Чекбокс:</label>
-				<span class="az-checkbox">
-					<input type="checkbox" name="az-checkbox" id="az-checkbox">
-					<label for="az-checkbox"></label>
-				</span>
-				
+	<!-- <div class="hidden"> -->
+		<div class="popup zoom-anim-dialog mfp-hide" id="call-back">
+			<div class="form">
+				<span class="popup-title">Заказать обратный звонок</span>
+				<div class="form-item error">
+					<label for="uname">Ваше имя:</label>
+					<input type="text" name="uname" id="uname" placeholder="Введите имя:">
+				</div>
+				<div class="form-item">
+					<label for="email">Ваш e-mail:</label>
+					<input type="text" name="email" id="email" placeholder="Введите ваш e-mail:">
+				</div>
+				<div class="form-item">
+					<label for="tel">Ваш телефон:</label>
+					<input type="text" name="tel" id="tel" class="phone" placeholder="+7 (---) --- -- --">
+				</div>
+				<div class="form-item">
+					<label for="message">Ваше сообщение:</label>
+					<textarea name="message" id="message" placeholder=""></textarea>
+				</div>
+				<div class="form-item">
+					<label for="az-select">Выпадшка:</label>
+					<select class="selectpicker" data-style="az-btn" data-width="100%" name="select" id="az-select">
+					  <option>Распродажа</option>
+					  <option>Мягкие игрушки</option>
+					  <option>Оружие</option>
+					</select>
+				</div>
+				<div class="form-item">
+					<label for="az-checkbox">Чекбокс:</label><br>
+					<span class="az-checkbox">
+						<input type="checkbox" name="az-checkbox" id="az-checkbox">
+						<label for="az-checkbox"></label>
+					</span>
+				</div>
+				<div class="az-captcha-wrap">
+					<div class="az-captcha">
+						<div class="g-recaptcha" data-sitekey="6LflIhcUAAAAAKNbZ6X5Go4fEdFLd9_9Fsc4bswE"></div>
+					</div>
+				</div>
+				<div class="form-item az-center">
+					<button type="submit">Перезвоните мне</button>
+				</div>
 			</div>
 		</div>
-	</div>
+	<!-- </div> -->
+
+	
 			
 	<script src="js/scripts.min.js"></script>
 

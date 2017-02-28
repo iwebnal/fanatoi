@@ -35,4 +35,24 @@ $(function() {
   });
 
   $('.selectpicker').selectpicker();
+
+  $('.popup-with-move-anim').magnificPopup({
+      type: 'inline',
+      autoFocusLast: false,
+      fixedContentPos: true,
+      fixedBgPos: true,
+
+      overflowY: 'auto',
+
+      closeBtnInside: true,
+      preloader: false,
+      
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'my-mfp-slide-bottom',
+      closeMarkup: "<button class='az-close-btn mfp-close'></button>"
+  });
+
+  $(".phone").mask("+ 7 ( 000 ) 000 00 00");
+  
 });

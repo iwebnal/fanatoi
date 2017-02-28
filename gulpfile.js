@@ -21,6 +21,7 @@ gulp.task('scripts', function() {
 		'app/libs/az-select/az-select.js',
 		'app/libs/bootstrap/bootstrap.min.js',
 		'app/libs/bootstrap-select/bootstrap-select.js',
+		'app/libs/mask/jquery.mask.js',
 		// 'app/libs/bootstrap-select/defaults-ru_RU.js',
 		'app/libs/owl.carousel/owl.carousel.min.js',
 		// 'app/libs/mmenu/jquery.mmenu.min.all.js',
