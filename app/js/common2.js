@@ -33,4 +33,6 @@ $(function() {
       }
       // return false;
   });
+
+  $('.selectpicker').selectpicker();
 });

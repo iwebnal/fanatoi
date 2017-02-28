@@ -20,6 +20,8 @@ gulp.task('scripts', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/az-select/az-select.js',
 		'app/libs/bootstrap/bootstrap.min.js',
+		'app/libs/bootstrap-select/bootstrap-select.js',
+		// 'app/libs/bootstrap-select/defaults-ru_RU.js',
 		'app/libs/owl.carousel/owl.carousel.min.js',
 		// 'app/libs/mmenu/jquery.mmenu.min.all.js',
 		// 'app/libs/superfish-master/dist/js/superfish.min.js',
