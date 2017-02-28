@@ -31,7 +31,7 @@
 						<li>
 							<a href="#">Контакты</a>
 						</li>
-						<div><span href="#" class="az-user-menu"><a href="#">Вход</a> <span>/</span> <a href="#">Регистрация</a></spam></div>
+						<div><span class="az-user-menu hidden-md hidden-sm"><a href="#">Вход</a> <span>/</span> <a href="#">Регистрация</a></span></div>
 						<div class="az-cart-menu-wrapper">
 							<span class="az-cart-menu-text"><strong>Корзина</strong>: 12 шт.</span>&nbsp;&nbsp;&nbsp;&nbsp;
 							<span class="az-cart-menu-text">19 790 руб.<br>
@@ -40,9 +40,6 @@
 					</ul>
 				</div>
 				<ul class="az-right-mob-menu pull-right">
-					<!-- <li class="hidden-xs hidden-sm hidden-md ">
-							<img src="img/az-user.png" alt="user"><a href="#">Вход</a> / <a href="#">Регистрация</a>
-					</li> -->
 					<li>
 						<a href="#">
 							<span class="az-cart2">
@@ -63,13 +60,57 @@
 	</div>
 </section>
 
-<header class=" ">
-	<div class="container-fluid">
+<header class="az-header">
+	<div class="container">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-			
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="az-logo">
+					<img src="img/logo.png" alt="logo">
+				</div>
+				<a href="#" class="az-cart-menu style2 hidden-sm hidden-md hidden-lg">Каталог</a>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 hidden-xs">
+				<div class="clearfix az-padding">
+					<div class="pull-left">
+						<span class="az-user-menu style3"><span>Москва</span> <span>/</span> <a href="#">Екатеринбург</a></span>
+					</div>
+					<div class="pull-right hidden-lg">
+						<span class="az-user-menu style2"><a href="#">Вход</a> <span>/</span> <a href="#">Регистрация</a></span>
+					</div>
+				</div>
+				<form action="/" class="az-search">
+					<input type="text" name="s" placeholder="Я хочу найти:">
+					<input type="submit" value="">
+				</form>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+				<div class="az-tel">
+					<a href="tel:+78004460320" class="az-tel-num">+7 800 <strong>446-03-20</strong></a><br>
+					<a href="#" class="az-call-back">Заказать обратный звонок</a>
+				</div>
 			</div>
 		</div>
 	</div>
 </header>
+
+<section class="az-second-menu hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="az-second-menu-inner">
+					<ul>
+						<li><a href="#">Распродажа</a></li>
+						<li><a href="#">Мягкие игрушки</a></li>
+						<li><a href="#">Оружие</a></li>
+						<li><a href="#">Очки и аксессуары</a></li>
+						<li><a href="#">светильники</a></li>
+						<li><a href="#">3d наклейки</a></li>
+						<li><a href="#">Конструкторы</a></li>
+						<li><a href="#">Брелоки</a></li>
+						<li><a href="#">Подарочные сертификаты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
