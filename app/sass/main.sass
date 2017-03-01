@@ -14,6 +14,8 @@ body
 
 
 //********************************************************************************
+.ah-footsoc-wrapp
+	margin-top: 0px
 .ah-footer-bottom
 	background: #181819
 .ah-footbottom-text
@@ -23,15 +25,22 @@ body
 	font-size: 12px
 	line-height: 16px
 	margin: 15px 0px
-	width: 60%
+	width: 100%
 	float: left
+.ah-footbottom1-logo
+	display: inline-block
+	float: right
 .ah-footbottom-logo
 	display: block
 	padding: 10px 10px
-	background: #232324
-	float: right
-.ah-footer-socbox
+	background: inherit
 	text-align: center
+	float: right
+	width: 100%
+.ah-footer-socbox
+	display: block
+	text-align: center
+	padding-left: 0
 .ah-footsocbox-link
 	display: inline-block
 	background: url(../img/foot-icon4.png) center center no-repeat
@@ -51,7 +60,7 @@ body
 .ah-footer-wrapp
 	text-align: left
 .ah-footer-wrapp1
-	text-align: right
+	text-align: center
 	.ah-footer-tel
 		display: block
 		font-family: "ArimoRegular", sans-serif
@@ -79,7 +88,7 @@ body
 	display: inline-block
 	font-family: "ArimoRegular", sans-serif
 	color: #fff
-	width: 120px
+	width: 150px
 	font-size: 14px
 	line-height: 30px
 	background: url(../img/foot-icon2.png) left center no-repeat
@@ -183,16 +192,11 @@ body
 		text-transform: uppercase
 
 /*Заголовок*/
-
+.ah-news
+	padding-bottom: 30px
 .ah-news-wrapp
-	padding-bottom: 45px
+	padding-bottom: 15px
 	border-bottom: 2px solid #ecf0f1
-
-
-	margin-bottom: 50px
-
-
-
 .ah-news-span
 	display: inline-block
 	font-family: "ArimoRegular", sans-serif
@@ -211,7 +215,7 @@ body
 .ah-novelty
 	padding: 45px 0px 10px 0px
 .ah-popular
-	padding: 15px 0px 10px 0px
+	padding: 15px 0px 30px 0px
 .ah-novelty-link
 	float: right
 	display: inline-block
@@ -369,42 +373,46 @@ body
 		.owl-dot
 			display: inline-block
 			margin-right: 12px
-			width: 17px
-			height: 17px
-			background: url(../img/ah-dot1.png) center center no-repeat
+			width: 12px
+			height: 11px
+			background: url(../img/ah-dot1_320.png) center center no-repeat
 		.active
-			width: 17px
-			height: 17px
-			background: url(../img/ah-dot2.png) center center no-repeat
+			width: 12px
+			height: 11px
+			background: url(../img/ah-dot2_320.png) center center no-repeat
 	.item
 		position: relative
-		height: 381px
+		height: 110px
 		width: 100%
 .ah-slider-imgbox
 	position: absolute
 	top: -5%
 	left: 5%
+	img
+		width: 131px
+		height: 111px
 .ah-slider-content
 	position: absolute
 	top: 0
+	// left: 0%
 	left: 29%
 	transform: translate(50%, 0)
 	margin-top: 14px
 .ah-slider-title
-	display: block
+	display: inline-block
 	font-family: "ArimoBold", sans-serif
 	color: #fff
-	font-size: 58px
-	line-height: 85px
+	font-size: 15px
+	line-height: 24px
 	text-transform: uppercase
-	padding: 0px 20px
+	padding: 0px 3px
 	background: #d14841
 .ah-slider-text
 	display: block
 	font-family: "ArimoRegular", sans-serif
 	color: #fff
-	font-size: 59px
-	line-height: 60px
+	font-size: 15px
+	line-height: 16px
 	text-transform: uppercase
 
 
