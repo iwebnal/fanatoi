@@ -503,3 +503,36 @@ input.error, textarea.error
 	height: 30px
 	background: url(../img/az-close-btn.png) no-repeat center !important
 	border: none
+
+/*breadcrumbs*/
+.az-breadcrumbs
+	font-size: 0
+	margin: 8px 0
+	ul
+		margin-top: -20px
+		li
+			display: inline-block
+			margin-right: 18px
+			position: relative
+			&::before
+				content: '/'
+				color: #448ccd
+				position: absolute
+				top: 0
+				right: -11px
+				font-size: 14px
+				font-family: "ArimoRegular"
+			&:last-child
+				margin-right: 0
+				&::before
+					display: none
+			a
+				color: #448ccd
+				font-size: 14px
+				font-family: "ArimoRegular"
+				&:hover
+					text-decoration: underline
+			span
+				color: #448ccd
+				font-size: 14px
+				font-family: "ArimoRegular"
