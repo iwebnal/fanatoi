@@ -40,9 +40,6 @@
 	<?php require_once('includes/news.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
-        <!-- <a href="#call-back" id="az-thanks" class="az-button popup-with-move-anim">выбрать</a> -->
-
-	<!-- <div class="hidden"> -->
 		<div class="popup zoom-anim-dialog mfp-hide" id="call-back">
 			<div class="form">
 				<span class="popup-title">Заказать обратный звонок</span>
@@ -52,7 +49,7 @@
 				</div>
 				<div class="form-item">
 					<label for="email">Ваш e-mail:</label>
-					<input type="text" name="email" id="email" placeholder="Введите ваш e-mail:">
+					<input type="text" name="email" id="email" class="email" placeholder="Введите ваш e-mail:">
 				</div>
 				<div class="form-item">
 					<label for="tel">Ваш телефон:</label>
@@ -87,9 +84,6 @@
 				</div>
 			</div>
 		</div>
-	<!-- </div> -->
-
-	
 			
 	<script src="js/scripts.min.js"></script>
 
