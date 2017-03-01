@@ -63,4 +63,20 @@ $(function() {
     return false;
   });
 
+  function az_validateEmail(email2) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email2);
+  }
+
+  $('.email').keyup(function(){
+    if(!az_validateEmail($(this).val())){
+      $(this).parent().addClass('error');
+    } else{
+      $(this).parent().removeClass('error');
+    }
+    if($(this).val().length == 0){
+      $(this).parent().removeClass('error');
+    }
+  });
+  
 });
