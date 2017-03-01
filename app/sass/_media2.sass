@@ -19,13 +19,40 @@
 	/**/
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
+@media only screen and (max-width : 767px)
 	.popup
 		padding: 30px
 		border: 3px solid #2c82c9
 		max-width: 588px
 		width: 100%
 		margin: 20px auto
+	.ah-cardproduct-form.az-style2
+		position: relative
+		margin-left: 34px
+		input
+			width: 50px
+			height: 40px
+			position: relative
+			z-index: 2
+		.ah-card-plus
+			position: absolute
+			top: 0
+			right: -34px
+			border-radius: 6px
+			background: #7d7d7d
+			width: 40px
+			height: 40px
+			line-height: 40px
+		.ah-card-min
+			position: absolute
+			border-radius: 6px
+			top: 0
+			left: -34px
+			background: #7d7d7d
+			width: 40px
+			height: 40px
+			line-height: 40px
+	
 	/**/
 
 
@@ -89,13 +116,18 @@
 			padding-right: 8px
 			&::before
 				background: url(../img/az-tab-arrow-active.png) no-repeat center
-
+	.az-table-basket
+		max-width: 400px
+		margin: 0 auto
+		.az-basket-item-name
+			br
+				display: none
 	/**/
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
-	
+
 	/**/
 
 
@@ -258,11 +290,104 @@
 				background: url(../img/az-tab-arrow-active.png) no-repeat center
 	.az-row
 		display: none
+	.az-region
+		text-align: left
+		br
+			display: none
+	.az-description
+		font-size: 15px
+		width: 470px
+		text-align: left
+		vertical-align: middle
+	.az-table-basket
+		max-width: 100%
+		width: 100%
+		tr:first-child
+			border-top: none
+		tr
+			display: table-row
+			th
+				display: table-cell
+				text-align: center
+			th:first-child
+				text-align: left
+			td
+				display: table-cell !important
+				float: none
+				width: auto !important
+				text-align: center
+			td:nth-child(1)
+				display: block
+				width: 140px
+				height: 140px
+				float: none
+				border: none
+				margin-right: 0
+				margin-top: 0
+				padding: 12px
+			td:nth-child(2), td:nth-child(3), td:nth-child(4)
+				display: block
+			td:nth-child(2)
+				font-family: "ArimoRegular"
+				font-size: 16px
+				color: #000
+				margin-top: 0px
+				line-height: 18px
+				text-align: left
+			td:nth-child(3)
+				font-family: "ArimoBold"
+				font-size: 14px
+				color: #80bb38
+				line-height: 18px
+				text-transform: uppercase
+				margin-top: 0px
+				min-width: 100px
+			td:nth-child(4)
+				font-family: "ArimoBold"
+				font-size: 20px
+				color: #2c82c9
+				line-height: 26px
+				strong
+					font-size: 11px
+			td:nth-last-child(2), td:nth-last-child(3)
+				display: inline-block
+				width: auto
+			td:nth-last-child(3)
+				text-align: center
+				margin-top: 0
+				vertical-align: middle
+				min-width: 100px
+			td:nth-last-child(2)
+				text-align: center
+				font-family: "ArimoBold"
+				font-size: 20px
+				color: #2c82c9
+				vertical-align: middle
+				height: 26px
+				line-height: 26px
+				min-width: 92px
+				strong
+					font-size: 11px
+			td:nth-last-child(1)
+				min-width: 0
+				vertical-align: top
+				a
+					margin-top: 10px
+					display: inline-block
+					position: static
+					top: unset
+					right: unset
+	.az-basket-img
+		border: 1px solid #ededed
+		width: 139px
+		height: 139px
 	/**/
 
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	.az-description
+		width: auto
 	.az-menu
 		>li
 			padding: 0 55px 0 0
@@ -350,6 +475,41 @@
 			span
 				a
 					font-size: 14px
+	.az-region
+		font-size: 16px
+	.az-description
+		font-size: 16px
+	.az-basket-img
+		width: 180px
+		height: 180px
+	.az-table-basket
+		margin-top: 20px
+		tr
+			th
+				height: 40px
+			th:nth-child(1)
+				text-align: center
+			td:nth-child(1)
+				width: 204px !important
+			td:nth-child(2)
+				font-size: 16px
+				text-align: center
+			td:nth-child(3)
+				font-size: 16px
+			td:nth-child(4)
+				font-size: 26px
+				strong
+					font-size: 14px
+			td:nth-last-child(2)
+				font-size: 26px
+				strong
+					font-size: 14px
+			td:nth-last-child(1)
+				min-width: 80px
+				vertical-align: middle
+				a
+					margin-top: 0
+
 	/**/
 
 /* Large Devices, Wide Screens */
