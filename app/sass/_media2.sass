@@ -19,7 +19,7 @@
 	/**/
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
+@media only screen and (max-width : 767px)
 	.popup
 		padding: 30px
 		border: 3px solid #2c82c9
@@ -305,6 +305,7 @@
 		tr:first-child
 			border-top: none
 		tr
+			display: table-row
 			th
 				display: table-cell
 				text-align: center
@@ -367,6 +368,12 @@
 				min-width: 92px
 				strong
 					font-size: 11px
+			td:nth-last-child(1)
+				min-width: 30px
+				a
+					position: static
+					top: unset
+					right: unset
 	.az-basket-img
 		border: 1px solid #ededed
 		width: 139px
@@ -496,10 +503,6 @@
 					font-size: 14px
 			td:nth-last-child(1)
 				min-width: 80px
-				a
-					position: static
-					top: unset
-					right: unset
 	/**/
 
 /* Large Devices, Wide Screens */
