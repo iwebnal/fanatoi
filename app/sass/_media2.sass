@@ -47,7 +47,49 @@
 /*==========  Mobile First  ==========*/
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px)
+@media only screen and (min-width : 400px)
+	/*tabs*/
+	.az-tabs
+		margin-right: 0
+		margin-left: 0
+		width: 100%
+		li:nth-child(1)
+			padding-right: 8px
+			position: relative
+			&::before
+				content: ""
+				position: absolute
+				top: 50%
+				right: -5px
+				width: 10px
+				height: 16px
+				background: url(../img/az-tab-arrow.png) no-repeat center
+				transform: translate(0, -50%)
+		li:nth-last-child(2)
+			padding-right: 8px
+			position: relative
+			&::before
+				content: ""
+				position: absolute
+				top: 50%
+				right: -5px
+				width: 10px
+				height: 16px
+				background: url(../img/az-tab-arrow.png) no-repeat center
+				transform: translate(0, -50%)
+		li:nth-child(1).active
+			padding-right: 8px
+			&::before
+				background: url(../img/az-tab-arrow-active.png) no-repeat center
+		li:nth-child(2).active
+			padding-left: 8px
+		li:nth-last-child(1).active
+			padding-left: 8px
+		li:nth-last-child(2).active
+			padding-right: 8px
+			&::before
+				background: url(../img/az-tab-arrow-active.png) no-repeat center
+
 	/**/
 
 
@@ -188,6 +230,34 @@
 			display: block
 			color: #282729
 			text-decoration: underline
+	.az-tabs
+		margin-bottom: 15px
+		li
+			width: 25%
+			span
+				a
+					text-transform: uppercase
+					padding: 0
+		li:nth-child(2)
+			padding-right: 8px
+			position: relative
+			&::before
+				content: ""
+				position: absolute
+				top: 50%
+				right: -5px
+				width: 10px
+				height: 16px
+				background: url(../img/az-tab-arrow.png) no-repeat center
+				transform: translate(0, -50%)
+		li:nth-last-child(2)
+			padding-left: 8px
+		li:nth-child(2).active
+			padding-right: 8px
+			&::before
+				background: url(../img/az-tab-arrow-active.png) no-repeat center
+	.az-row
+		display: none
 	/**/
 
 
@@ -274,6 +344,12 @@
 			font-size: 30px
 		.az-call-back
 			font-size: 16px
+	.az-tabs
+		margin-bottom: 20px
+		li
+			span
+				a
+					font-size: 14px
 	/**/
 
 /* Large Devices, Wide Screens */

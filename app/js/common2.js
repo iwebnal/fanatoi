@@ -55,9 +55,12 @@ $(function() {
 
   $(".phone").mask("+ 7 ( 000 ) 000 00 00");
   
-  $('.az-tabs>li>a').click(function(){
+  $('.az-tabs>li a').click(function(){
+    $('.az-tabs>li').removeClass('active');
+    $(this).parents("li").addClass('active');
     $('.az-tab-cont>li').fadeOut(0);
     $($(this).attr('href')).fadeIn(0);
     return false;
   });
+
 });
