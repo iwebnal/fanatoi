@@ -7,7 +7,7 @@
 			<div class="col-md-12">
 				<div class="az-tabs-wrap">
 					<ul class="az-tabs">
-						<li class="az-tab-cond"><span><a href="#az-tab1">1. Корзина</a></span></li>
+						<li class="az-tab-cond active"><span><a href="#az-tab1">1. Корзина</a></span></li>
 						<li class="az-tab-cond"><span><a href="#az-tab2">2. Контактные данные</a></span></li>
 						<div class="az-row"></div>
 						<li class="az-tab-cond"><span><a href="#az-tab3">3. Способы получения</a></span></li>
@@ -16,93 +16,100 @@
 					<ul class="az-tab-cont">
 						<li id="az-tab1">
 							<div class="az-tab1-wrap">
+								<div class="card-title clearfix">
+									<div class="az-region">
+										<span class="az-region-title">Ваш Регион:</span>
+										<select class="selectpicker" data-style="az-btn2" data-width="fit" name="select" id="az-select">
+											<option>Екатеринбург</option>
+											<option>Москва</option>
+										</select>
+										<br><span class="az-description">От выбранного региона зависят доступные способы получения и оплаты товара.</span>
+									</div>
+								</div>
 								<table class="az-table-basket">
 									<tr>
-										<th>Ваш заказ</th>
-										<th>Статус</th>
-										<th>Цена</th>
+										<th>Товар</th>
+										<th>Описание</th>
+										<th>Доступно</th>
+										<th>Цена за единицу</th>
 										<th>Кол-во</th>
-										<th>Сумма</th>
+										<th>Итого</th>
+										<th></th>
 									</tr>
 									<tr>
 										<td>
-											<span class="az-basket-item-name">на iPhone 6 s</span>
 											<div class="az-basket-img">
-												<img src="img/ah-cardprod-img.jpg" alt="photo">
+												<img src="img/novelty1.jpg" alt="photo">
 											</div>
 										</td>
-										<td><img src="img/ah-card-lik.png" alt="ok"></td>
-										<td>500 р.</td>
 										<td>
-											<div class="ah-cardproduct-formbox az-style2">
-												<form class="ah-cardproduct-form az-style2">
-													<a href="#" class="ah-card-plus">+</a>
-													<input type="text" value="10000">
-													<a href="#" class="ah-card-min">-</a>
-												</form>
-											</div>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
 										</td>
-										<td>5 000 000</td>
+										<td>В наличии</td>
+										<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+										<td>
+											<span>
+												<div class="ah-cardproduct-formbox az-style2">
+													<form class="ah-cardproduct-form az-style2">
+														<a href="#" class="ah-card-plus">+</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-min">-</a>
+													</form>
+												</div>
+											</span>
+										</td>
+										<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+										<td><a href="#"><img src="img/az-del.png" alt="del"></a></td>
 									</tr>
 									<tr>
 										<td>
-											<span class="az-basket-item-name">на iPhone 6 s</span>
 											<div class="az-basket-img">
-												<img src="img/ah-cardprod-img.jpg" alt="photo">
+												<img src="img/novelty1.jpg" alt="photo">
 											</div>
 										</td>
-										<td><img src="img/ah-card-lik.png" alt="ok"></td>
-										<td>500 р.</td>
 										<td>
-											<div class="ah-cardproduct-formbox az-style2">
-												<form class="ah-cardproduct-form az-style2">
-													<a href="#" class="ah-card-plus">+</a>
-													<input type="text" value="10000">
-													<a href="#" class="ah-card-min">-</a>
-												</form>
-											</div>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
 										</td>
-										<td>5 000 000</td>
+										<td>В наличии</td>
+										<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+										<td>
+											<span>
+												<div class="ah-cardproduct-formbox az-style2">
+													<form class="ah-cardproduct-form az-style2">
+														<a href="#" class="ah-card-plus">+</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-min">-</a>
+													</form>
+												</div>
+											</span>
+										</td>
+										<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+										<td><a href="#"><img src="img/az-del.png" alt="del"></a></td>
 									</tr>
 									<tr>
 										<td>
-											<span class="az-basket-item-name">на iPhone 6 s</span>
 											<div class="az-basket-img">
-												<img src="img/ah-cardprod-img.jpg" alt="photo">
+												<img src="img/novelty1.jpg" alt="photo">
 											</div>
 										</td>
-										<td><img src="img/ah-card-lik.png" alt="ok"></td>
-										<td>500 р.</td>
 										<td>
-											<div class="ah-cardproduct-formbox az-style2">
-												<form class="ah-cardproduct-form az-style2">
-													<a href="#" class="ah-card-plus">+</a>
-													<input type="text" value="10000">
-													<a href="#" class="ah-card-min">-</a>
-												</form>
-											</div>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
 										</td>
-										<td>5 000 000</td>
-									</tr>
-									<tr>
+										<td>В наличии</td>
+										<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
 										<td>
-											<span class="az-basket-item-name">на iPhone 6 s</span>
-											<div class="az-basket-img">
-												<img src="img/ah-cardprod-img.jpg" alt="photo">
-											</div>
+											<span>
+												<div class="ah-cardproduct-formbox az-style2">
+													<form class="ah-cardproduct-form az-style2">
+														<a href="#" class="ah-card-plus">+</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-min">-</a>
+													</form>
+												</div>
+											</span>
 										</td>
-										<td><img src="img/ah-card-lik.png" alt="ok"></td>
-										<td>500 р.</td>
-										<td>
-											<div class="ah-cardproduct-formbox az-style2">
-												<form class="ah-cardproduct-form az-style2">
-													<a href="#" class="ah-card-plus">+</a>
-													<input type="text" value="10000">
-													<a href="#" class="ah-card-min">-</a>
-												</form>
-											</div>
-										</td>
-										<td>5 000 000</td>
+										<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+										<td><a href="#"><img src="img/az-del.png" alt="del"></a></td>
 									</tr>
 								</table>
 								<table class="az-basket-summ">
