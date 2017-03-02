@@ -122,6 +122,15 @@
 		.az-basket-item-name
 			br
 				display: none
+	.az-cupon
+		max-width: 400px
+		margin: 20px auto 0
+	.az-promo
+		max-width: 400px
+		margin: 0 auto
+	.az-itog
+		max-width: 400px
+		margin: 26px auto 0
 	/**/
 
 
@@ -374,13 +383,38 @@
 				a
 					margin-top: 10px
 					display: inline-block
-					position: static
-					top: unset
-					right: unset
+					position: absolute
+					top: 0
+					right: 0
 	.az-basket-img
 		border: 1px solid #ededed
 		width: 139px
 		height: 139px
+	.az-relative-tab
+		position: relative
+		width: 0
+		height: 100px
+	.az-cupon
+		max-width: 100%
+		margin: 20px 0 0
+		padding: 15px 28px 0
+		.az-cupon-sum
+			font-size: 16px
+			line-height: 30px
+		.az-cupon-sum-end
+			font-size: 20px
+			line-height: 28px
+	.az-cupon-form
+		max-width: 265px
+	.az-promo
+		padding-left: 30px
+		max-width: 100%
+		.az-cupon-form
+			max-width: 100%
+	.az-itog
+		padding: 33px 23px 25px
+	.az-promo-itog
+		padding-bottom: 40px
 	/**/
 
 
@@ -508,8 +542,31 @@
 				min-width: 80px
 				vertical-align: middle
 				a
-					margin-top: 0
-
+					margin-top: 0px
+					display: inline-block
+					position: static
+					top: unset
+					right: unset
+					// height: 13px
+	.az-relative-tab
+		position: relative
+		width: 100%
+		height: auto
+		font-size: 0
+	.az-cupon
+		max-width: 100%
+		margin: 20px 0 0
+		padding: 15px 28px 0
+		.az-cupon-title
+			font-size: 22px
+		.az-cupon-sum
+			font-size: 18px
+			line-height: 32px
+		.az-cupon-sum-end
+			font-size: 22px
+			line-height: 28px
+	.az-cupon-form
+		max-width: 310px
 	/**/
 
 /* Large Devices, Wide Screens */
