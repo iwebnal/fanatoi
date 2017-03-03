@@ -38,6 +38,7 @@
 	<?php require_once('includes/advantages.php'); ?>
 	<?php require_once('includes/textbox.php'); ?>
 	<?php require_once('includes/news.php'); ?>
+	<?php require_once('includes/vkbox.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 		<div class="popup zoom-anim-dialog mfp-hide" id="call-back">

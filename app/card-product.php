@@ -146,7 +146,7 @@
 								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
 							</div>
 						</div>
-						<div class="ah-sidebarbox-item">
+						<div class="ah-sidebarbox-item hidden-sm">
 							<div class="ah-sidebarbox-left">
 								<div class="ah-sidebarbox-imgbox">
 									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
@@ -165,8 +165,10 @@
 				<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<span class="ah-cardproduct-title">Брелок “Стив” в алмазном доспехе</span>
-							<span class="ah-cardproduct-subtitle">Артикул: CT000974</span>
+							<div class="ah-cardproduct-topwrapp">
+								<span class="ah-cardproduct-title">Брелок “Стив” в алмазном доспехе</span>
+								<span class="ah-cardproduct-subtitle">Артикул: CT000974</span>
+							</div>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -224,10 +226,11 @@
 								</div>
 							</div>
 							<div class="ah-cardprod-pricebox">
-								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
-								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
-								<a href="#" class="ah-tabright-link ah-cardprod-link">купить</a>
+								<span class="ah-sidebar-price1 ah-sidprice1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2 ah-sidprice2">1 800<span>руб.</span></span>
+								<!-- <a href="#" class="ah-tabright-link ah-cardprod-link">купить</a> -->
 							</div>
+							<a href="#" class="ah-tabright-link ah-cardprod-link">купить</a>
 							<div class="ah-cardprod-text">
 								<span class="ah-cardtext-span">доставка</span>
 								<span class="ah-cardtext-span1">Доставка по Москве в пределах МКАД от 1 до 3 дней Самовывоз на следующий рабочий день</span>
@@ -292,7 +295,7 @@
 										<p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
 									</div>
 								</div>
-								<div class="ah-stars-item">
+								<div class="ah-stars-item hidden-sm">
 									<div class="ah-stars-left">
 										<span class="ah-stars-title">Иван сергеевич</span>
 										<div class="ah-stars-box">
@@ -312,7 +315,7 @@
 										<p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
 									</div>
 								</div>
-								<div class="ah-stars-item">
+								<div class="ah-stars-item hidden-sm">
 									<div class="ah-stars-left">
 										<span class="ah-stars-title">Иван сергеевич</span>
 										<div class="ah-stars-box">
