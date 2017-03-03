@@ -8,10 +8,10 @@
 				<div class="az-tabs-wrap">
 					<ul class="az-tabs">
 						<li class="az-tab-cond"><span><a href="#az-tab1">1. Корзина</a></span></li>
-						<li class="az-tab-cond active"><span><a href="#az-tab2">2. Контактные данные</a></span></li>
+						<li class="az-tab-cond"><span><a href="#az-tab2">2. Контактные данные</a></span></li>
 						<div class="az-row"></div>
 						<li class="az-tab-cond"><span><a href="#az-tab3">3. Способы получения</a></span></li>
-						<li class="az-tab-cond"><span><a href="#az-tab4">4. Заказ оформлен</a></span></li>
+						<li class="az-tab-cond active"><span><a href="#az-tab4">4. Заказ оформлен</a></span></li>
 					</ul>
 					<ul class="az-tab-cont">
 						<li id="az-tab1" style="display: none;">
@@ -146,16 +146,18 @@
 										<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-2 col-lg-4 col-lg-push-3">
 											<div class="az-itog">
 												<span class="az-itog-sum">Итого</span><br>
-												<span class="az-cupon-sum">Итого за доставку: 950 руб.</span><br>
-												<span class="az-cupon-sum-end">Итого: 3 900 руб.</span>
-												<div class="az-center">sddsfsdf</div>
+												<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
+												<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
+												<div class="az-center">
+													<a href="#" class="az-offer">оформить заказ</a>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</li>
-						<li id="az-tab2">
+						<li id="az-tab2" style="display: none;">
 							<div class="az-tab2-wrap">
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -195,242 +197,260 @@
 													<a href="#"><img src="img/az-facebook.png" alt="facebook"></a>
 													<a href="#"><img src="img/az-ok.png" alt="ok"></a>
 												</div>
-												<button type="submit">зарегистрироваться и продолжить</button>
+												<div class="az-center">
+													<button type="submit">зарегистрироваться и продолжить</button>
+												</div>
 											</form>
 										</div>
 									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-									<!-- <span class="az-title-wrap style3"><span class="az-title">Зарегистрированный пользователь</span></span>
-									<form class="ah-reguser-form">
-										<span class="ah-reguser-form-span">E-mail:</span>
-										<input type="text" placeholder="Введите e-mail:">
-										<span class="ah-reguser-form-span ah-newuser-margtop">Пароль:</span>
-										<input type="text" placeholder="Введите пароль:">
-										<a href="#" class="ah-reguser-form-span1">Показать введеный пароль</a>
-										<div class="az-xs-center">
-											<input type="submit" value="все готово">
-											<a href="#" class="ah-reguser-form-span2">Забыли пароль?</a>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<div class="az-reg-log">
+											<span class="az-reg-log-title">Без Регистрации</span>
+											<form action="/">
+												<div class="az-label-input">
+													<div><label for="">Имя:</label></div>
+													<div><input type="text"></div>
+												</div>
+												<div class="az-label-input">
+													<div><label for="">Телефон:</label></div>
+													<div><input type="text"></div>
+												</div>
+												<div class="az-label-input">
+													<div><label for="">E-mail:</label></div>
+													<div><input type="text"></div>
+												</div>
+												<p class="az-center">Нажав кнопку “Зарегистрироваться и продолжить” вы соглашаетесь с условиями <a href="#">оферты</a></p>
+												<div class="az-center">
+													<button type="submit">далее</button>
+												</div>
+											</form>
 										</div>
-									</form> -->
+									</div>
 								</div>
 							</div>
 						</li>
 						<li id="az-tab3" style="display: none;">
 							<div class="az-tab3-wrap">
 								<div class="row">
-									<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 pull-right">
-										<table class="az-table-basket">
-											<tr>
-												<th>Ваш заказ</th>
-												<th>Статус</th>
-												<th>Цена</th>
-												<th>Кол-во</th>
-												<th>Сумма</th>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
+									<div class="col-xs-12">
+										<div class="az-tab-delivery">
+											<p>Ориентировочная дата доставки этим перевозчиком со Вторника 11 Октября 2017 по Четверг 13 Октября 2017*</p>
+											<span class="az-tab-delivery-marg">*после подтверждения заказа</span>
+											<div class="az-tabcheckbox">
+												<input type="radio" name="radio1" id="az-del1">
+												<label class="az-deliv-checkbox" for="az-del1">
+													<div><span class="az-radio"></span></div>
+													<div><div class="az-deliv-img"><img src="img/az-del1.png" alt=""><img src="img/az-del1-checked.png" alt=""></div></div>
+													<div>Курьер (Москва, в пределах МКАД)<br>Доставка от 1 до 3 дней в пределах МКАД Самый быстрый</div>
+												</label>
+											</div>
+											<div class="az-tabcheckbox">
+												<input type="radio" name="radio1" id="az-del2" checked>
+												<label class="az-deliv-checkbox" for="az-del2">
+													<div><span class="az-radio"></span></div>
+													<div><div class="az-deliv-img"><img src="img/az-del2.png" alt=""><img src="img/az-del2-checked.png" alt=""></div></div>
+													<div class="style2">Почта России</div>
+												</label>
+											</div>
+											<div class="az-tabcheckbox">
+												<input type="radio" name="radio1" id="az-del3">
+												<label class="az-deliv-checkbox" for="az-del3">
+													<div><span class="az-radio"></span></div>
+													<div><div class="az-deliv-img"><img src="img/az-del3.png" alt=""><img src="img/az-del3-checked.png" alt=""></div></div>
+													<div>Самовывоз (Москва метро “Динамо”)</div>
+												</label>
+											</div>
+										</div>
+										<div class="az-tab-comment clearfix">
+											<div class="pull-left">
+												<span>Оставить комментарий к заказу?</span>
+											</div>
+											<div class="pull-right">
+												<textarea name="" id="" cols="30" rows="10" placeholder="Введите такст комментария"></textarea>
+											</div>
+										</div>
+										<div class="az-pay">
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+													<div class="az-pay-left">
+														<span class="az-title-wrap"><span class="az-title">Способы оплаты</span></span>
+														<div class="az-pay-radio-section">
+															<span>Оплата при получении</span>
+															<div class="az-pay-radio">
+																<input type="radio" name="radio2" id="az-pay1">
+																<label class="az-deliv-checkbox" for="az-pay1">
+																	<div><span class="az-pay-radio-span"></span></div>
+																	<div><div class="az-deliv-img"><img src="img/az-pay-radio1.png" alt=""><img src="img/az-pay-radio1-checked.png" alt=""></div></div>
+																	<div>Наличными</div>
+																</label>
+															</div>
+															<div class="az-pay-radio">
+																<input type="radio" name="radio2" id="az-pay2">
+																<label class="az-deliv-checkbox" for="az-pay2">
+																	<div><span class="az-pay-radio-span"></span></div>
+																	<div><div class="az-deliv-img"><img src="img/az-pay-radio2.png" alt=""><img src="img/az-pay-radio2-checked.png" alt=""></div></div>
+																	<div>Банковской картой</div>
+																</label>
+															</div>
+														</div>
+														<div class="az-pay-radio-section">
+															<span>Оплата он-лайн</span>
+															<div class="az-pay-radio">
+																<input type="radio" name="radio2" id="az-pay3">
+																<label class="az-deliv-checkbox" for="az-pay3">
+																	<div><span class="az-pay-radio-span"></span></div>
+																	<div><div class="az-deliv-img"><img src="img/az-pay-radio3.png" alt=""><img src="img/az-pay-radio3-checked.png" alt=""></div></div>
+																	<div></div>
+																</label>
+															</div>
+															<div class="az-pay-radio">
+																<input type="radio" name="radio2" id="az-pay4">
+																<label class="az-deliv-checkbox" for="az-pay4">
+																	<div><span class="az-pay-radio-span"></span></div>
+																	<div><div class="az-deliv-img"><img src="img/az-pay-radio2.png" alt=""><img src="img/az-pay-radio2-checked.png" alt=""></div></div>
+																	<div>Банковской картой</div>
+																</label>
+															</div>
+														</div>
+														<div class="az-pay-radio-section">
+															<span>Безналичный расчет</span>
+															<div class="az-pay-radio">
+																<input type="radio" name="radio2" id="az-pay5">
+																<label class="az-deliv-checkbox" for="az-pay5">
+																	<div><span class="az-pay-radio-span"></span></div>
+																	<div><div class="az-deliv-img"><img src="img/az-pay-radio4.png" alt=""><img src="img/az-pay-radio4-checked.png" alt=""></div></div>
+																	<div>Получить счет на оплату</div>
+																</label>
+															</div>
+														</div>
 													</div>
-												</td>
-												<td><img src="img/ah-card-lik.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
+												</div>
+												<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1 col-lg-4 col-lg-push-2">
+													<div class="az-itog style2">
+														<span class="az-itog-sum">Итого</span><br>
+														<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
+														<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
+														<div class="az-center">
+															<a href="#" class="az-offer">оформить заказ</a>
+														</div>
 													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-close.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-lik.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-lik.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-										</table>
-										<table class="az-basket-summ">
-											<tr>
-												<td>Итого:</td>
-												<td>15 592 500 р.</td>
-											</tr>
-											<tr>
-												<td>К оплате:</td>
-												<td>19 592 500 р.</td>
-											</tr>
-										</table>
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-left">
-										<div class="az-tab-comment">
-											<span class="az-tab-comment-title">Комментарии к заказу:</span>
-											<textarea name="" id="" cols="30" rows="10" placeholder="Введите текст коментария:"></textarea>
+												</div>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="az-tab-prev-next">
-									<a href="#">назад</a>
-									<a href="#">далее</a>
+
 								</div>
 							</div>
 						</li>
-						<li id="az-tab4" style="display: none;">
-							<div class="az-tab3-wrap">
-								<div class="row">
-									<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 pull-right">
-										<table class="az-table-basket">
-											<tr>
-												<th>Ваш заказ</th>
-												<th>Статус</th>
-												<th>Цена</th>
-												<th>Кол-во</th>
-												<th>Сумма</th>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-lik.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-close.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-lik.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-											<tr>
-												<td>
-													<span class="az-basket-item-name">на iPhone 6 s</span>
-													<div class="az-basket-img">
-														<img src="img/ah-cardprod-img.jpg" alt="photo">
-													</div>
-												</td>
-												<td><img src="img/ah-card-lik.png" alt="ok"></td>
-												<td>500 р.</td>
-												<td>
-													<div class="ah-cardproduct-formbox az-style2">
-														<form class="ah-cardproduct-form az-style2">
-															<input type="text" value="10000">
-														</form>
-													</div>
-												</td>
-												<td>5 000 000</td>
-											</tr>
-										</table>
-										<table class="az-basket-summ">
-											<tr>
-												<td>Итого:</td>
-												<td>15 592 500 р.</td>
-											</tr>
-											<tr>
-												<td>К оплате:</td>
-												<td>19 592 500 р.</td>
-											</tr>
-										</table>
+						<li id="az-tab4">
+							<div class="az-tab4-wrap az-thank">
+								<span class="az-thank-title">СПАСИБО ЗА ВАШ ЗАКАЗ!</span>
+								<div class="az-goback-print clearfix hidden-xs">
+									<div class="pull-left">
+										<a href="#" class="az-go-back">Вернуться к покупкам</a>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-left">
-										<div class="az-tab-comment">
-											<span class="az-tab-comment-title">Комментарии к заказу:</span>
-											<textarea name="" id="" cols="30" rows="10" placeholder="Введите текст коментария:"></textarea>
-										</div>
+									<div class="pull-right hidden-sm hidden-md">
+										<a href="#" class="az-print">Распечатать</a>
 									</div>
 								</div>
-								<div class="az-tab-prev-next">
-									<a href="#">назад</a>
-									<a href="#">далее</a>
+								<p>Александр, мы рады, что вы выбрали наш магазин! Ваш заказ передан в службу доставки. Как только он будет готов к выдаче, вы получите подтверждение по SMS и уведомление по  электронной почте.</p>
+								<div class="row">
+									<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+										<div class="az-center az-sm-left">
+											<span class="az-thank-order-title">Заказ № 1-399-999</span><br>
+											<span class="az-thank-order-subtitle">от 09 октября 2016 г. 23:02</span><br>
+											<span class="az-thank-customer-data">Данные покупателя:</span><br>
+											<span class="az-thank-customer-datas">Имя: Александр</span><br>
+											<span class="az-thank-customer-datas">Телефон: +7 (921) 446-99-99</span><br>
+											<span class="az-thank-customer-datas">E-mail: max@ws.ru</span>
+										</div>
+									</div>
+									<div class="hidden-xs col-sm-7 col-md-8 col-lg-9">
+										<a href="#">
+											<img src="img/yandex-market.jpg" class="img-responsive" alt="yandex market">
+										</a>
+									</div>
+								</div>
+								<span class="az-table-head hidden-xs">Состав заказа:</span>
+								<table class="az-table-basket az-margin-top23">
+									<tr>
+										<th>Товар</th>
+										<th>Описание</th>
+										<th>Доступно</th>
+										<th>Цена за единицу</th>
+										<th>Кол-во</th>
+										<th>Итоговая сумма</th>
+										<th></th>
+									</tr>
+									<tr>
+										<td>
+											<div class="az-basket-img">
+												<img src="img/novelty1.jpg" alt="photo">
+											</div>
+										</td>
+										<td>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+										</td>
+										<td>В наличии</td>
+										<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+										<td>
+											<span>
+												<div class="ah-cardproduct-formbox az-style2">
+													<form class="ah-cardproduct-form az-style2">
+														<a href="#" class="ah-card-plus">+</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-min">-</a>
+													</form>
+												</div>
+											</span>
+										</td>
+										<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="az-basket-img">
+												<img src="img/novelty1.jpg" alt="photo">
+											</div>
+										</td>
+										<td>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+										</td>
+										<td>В наличии</td>
+										<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
+										<td>
+											<span>
+												<div class="ah-cardproduct-formbox az-style2">
+													<form class="ah-cardproduct-form az-style2">
+														<a href="#" class="ah-card-plus">+</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-min">-</a>
+													</form>
+												</div>
+											</span>
+										</td>
+										<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
+										<td></td>
+									</tr>
+								</table>
+								<div class="az-address-itog">
+									<div class="row">
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+											<div class="az-address">
+												<span class="az-address-title">Адрес магазина:</span>
+												<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span><br>
+												<span class="az-address-text">Пн-Вс 10:00 - 22:00</span>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+											<div class="az-itog">
+												<span class="az-itog-sum">Итого</span><br>
+												<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
+												<span class="az-cupon-sum">оставка: 0 руб.</span><br>
+												<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</li>
