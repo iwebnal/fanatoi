@@ -32,48 +32,317 @@
 
 <body>
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/breadcrumbs.php'); ?>
+	<?php require_once('includes/breadcrumbs_cardprod.php'); ?>
 	<div class="clearfix"></div>
 
 	<section class="ah-card-product">
 	    <div class="container">
 	    	<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
-					<!-- <div class="ah-cardproduct-wrapp"> -->
-						<ul class="ah-cardproduct-list">
-							<li><a href="#">Доставка и оплата</a></li>
-							<li><a href="#">Условия возврата и обмена</a></li>
-							<li><a href="#">Публичная оферта</a></li>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Контакты</a></li>
-						</ul>
-					<!-- </div> -->
-						<div class="ah-sidebarbox">
-							<div class="ah-sidebarbox-item">
-								<div class="ah-sidebarbox-left">
-									<div class="ah-sidebarbox-imgbox">
-										<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
-									</div>
-									<span class="ah-salebox">Скидка: 30%</span>
+				<div class="col-lg-3 col-md-3 col-sm-4 hidden-xs">
+					<ul class="ah-cardproduct-list">
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Условия возврата и обмена</a></li>
+						<li><a href="#">Публичная оферта</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<span class="az-title-wrap"><span class="az-title ah-title">товары со скидкой</span></span>
+					<div class="ah-sidebarbox">
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
 								</div>
-								<div class="ah-sidebarbox-right">
-									<span class="ah-sidebar-title">Фигурка Железный голем</span>
-									<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
-									<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
-									<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+						<div class="ah-sidebarbox-item">
+							<div class="ah-sidebarbox-left">
+								<div class="ah-sidebarbox-imgbox">
+									<img src="img/ah-sidebaricon.jpg" alt="sidebaricon">
+								</div>
+								<span class="ah-salebox">Скидка: 30%</span>
+							</div>
+							<div class="ah-sidebarbox-right">
+								<span class="ah-sidebar-title">Фигурка Железный голем</span>
+								<span class="ah-sidebar-subtitle">Майнкрафт, набор</span>
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<span class="ah-cardproduct-title">Брелок “Стив” в алмазном доспехе</span>
+							<span class="ah-cardproduct-subtitle">Артикул: CT000974</span>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+							<div class="ah-cardslider">
+								<div class="item" data-hash="zero">
+									<div class="ah-cardslider-imgbox">
+										<img src="img/cardproduct-slider1.png" class="img-responsive" alt="cardproduct-slider1">
+									</div>
+								</div>
+								<div class="item" data-hash="one">
+									<div class="ah-cardslider-imgbox">
+										<img src="img/cardproduct-slider2.jpg" class="img-responsive" alt="cardproduct-slider2">
+									</div>
+								</div>
+								<div class="item" data-hash="two">
+									<div class="ah-cardslider-imgbox">
+										<img src="img/cardproduct-slider3.jpg" class="img-responsive" alt="cardproduct-slider3">
+									</div>
+								</div>
+								<div class="item" data-hash="three">
+									<div class="ah-cardslider-imgbox">
+										<img src="img/cardproduct-slider5.jpg" class="img-responsive" alt="cardproduct-slider5">
+									</div>
+								</div>
+							</div>
+							<div class="ah-cardslider-dotwrapp">
+								<a class="ah-cardslider-dot" href="#zero">
+									<img src="img/cardproduct-slider1.png" class="img-responsive" alt="cardproduct-slider1">
+								</a>
+								<a class="ah-cardslider-dot" href="#one">
+									<img src="img/cardproduct-slider2.jpg" class="img-responsive" alt="cardproduct-slider2">
+								</a>
+								<a class="ah-cardslider-dot" href="#two">
+									<img src="img/cardproduct-slider3.jpg" class="img-responsive" alt="cardproduct-slider3">
+								</a>
+								<a class="ah-cardslider-dot ah-cardslider-dot1" href="#three">
+									<img src="img/cardproduct-slider5.jpg" class="img-responsive" alt="cardproduct-slider5">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+							<div class="ah-charbox">
+								<span class="ah-charbox-span">Размер:<span>5x5</span></span>
+								<span class="ah-charbox-span">Материал:<span>Резина</span></span>
+								<span class="ah-charbox-span">Упаковка:<span>Целофан</span></span>
+							</div>
+							<div class="ah-formbox1">
+								<div class="ah-cardproduct-formbox">
+									<span class="ah-cardform-span">Количество:</span>
+									<form class="ah-cardproduct-form">
+										<a href="#" class="ah-card-plus">+</a>
+										<input type="text" value="2">
+										<a href="#" class="ah-card-min">-</a>
+									</form>
+								</div>
+							</div>
+							<div class="ah-cardprod-pricebox">
+								<span class="ah-sidebar-price1">2 800<span>руб.</span></span>
+								<span class="ah-sidebar-price2">1 800<span>руб.</span></span>
+								<a href="#" class="ah-tabright-link ah-cardprod-link">купить</a>
+							</div>
+							<div class="ah-cardprod-text">
+								<span class="ah-cardtext-span">доставка</span>
+								<span class="ah-cardtext-span1">Доставка по Москве в пределах МКАД от 1 до 3 дней Самовывоз на следующий рабочий день</span>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="ah-videoblock-wrapp">
+								<span class="az-title-wrap"><span class="az-title">Описание</span></span>
+								<div class="ah-videoblock">
+									<iframe src="https://www.youtube.com/embed/nZZFqBi6aUg" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="ah-videoblock-text">
+									<p>Minecraft (от англ. mine «шахта», «добывать» и англ. craft «ремесло») — компьютерная инди-игра в жанре песочницы с элементами симулятора выживания и открытым миром, разработанная шведским программистом Маркусом Перссоном, известным также как «Notch», и позже выпускаемая основанной Перссоном компанией Mojang. Портированием и поддержкой версий игры для игровых консолей занималась британская компания 4J Studios. В 2014 году компания <a href="#">Mojang</a> и права на Minecraft были приобретены американской компанией Microsoft за 2,5 миллиарда долларов США. Игра написана на Java с использованием библиотеки LWJGL. Она была задумана как клон игры Infiniminer, хотя Маркус Персон выражал желание уподобить её геймплей игре Dwarf Fortress. Первая публичная альфа-версия игры для PC была выпущена в 2009 году; после постепенных дополнений в 2011 году Mojang выпустила полную версию игры. Minecraft доступна для Windows, Linux, OS X, Android, iOS, Windows Phone, PlayStation 3, PlayStation Vita, PlayStation 4, Xbox 360, Xbox One и Raspberry Pi. Версия игры для сенсорных устройств (телефонов и планшетов) носит название Minecraft: Pocket Edition. Minecraft предоставляет в распоряжение игрока трёхмерный процедурно генерируемый мир, полностью состоящий из кубических блоков, и дает возможность свободно перестраивать его, создавая из блоков сложные сооружения — эта особенность игры делает Minecraft схожей с конструктором LEGO. Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками. Minecraft является одной из самых успешных компьютерных игр в истории: по состоянию на лето 2015 года её продажи на всех платформах превысили 70 миллионов копий, из них 20 миллионов только для ПК, и количество зарегистрированных игроков в игре превысило 100 миллионов. Она была удостоена множества наград, включая Spike Video Game Awards и Golden Joystick Award.</p>
+									<p>Игра написана на Java с использованием библиотеки LWJGL. Она была задумана как клон игры Infiniminer, хотя Маркус Персон выражал желание уподобить её геймплей игре Dwarf Fortress. Первая публичная альфа-версия игры для PC была выпущена в 2009 году; после постепенных дополнений в 2011 году Mojang выпустила полную версию игры. Minecraft доступна для Windows, Linux, OS X, Android, iOS, Windows Phone, PlayStation 3, PlayStation Vita, PlayStation 4, Xbox 360, Xbox One и Raspberry Pi. Версия игры для сенсорных устройств (телефонов и планшетов) носит название Minecraft: Pocket Edition.</p>
+									<p>Minecraft предоставляет в распоряжение игрока трёхмерный процедурно генерируемый мир, полностью состоящий из кубических блоков, и дает возможность свободно перестраивать его, создавая из блоков сложные сооружения — эта особенность игры делает Minecraft схожей с конструктором LEGO. Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
+									<p>Minecraft является одной из самых успешных компьютерных игр в истории: по состоянию на лето 2015 года её продажи на всех платформах превысили 70 миллионов копий, из них 20 миллионов только для ПК, и количество зарегистрированных игроков в игре превысило 100 миллионов.</p>
 								</div>
 							</div>
 						</div>
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-
+						<div class="clearfix"></div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<span class="az-title-wrap"><span class="az-title">Отзывы</span></span>
+							<div class="ah-stars-wrapp">
+								<div class="ah-stars-item">
+									<div class="ah-stars-left">
+										<span class="ah-stars-title">Иван сергеевич</span>
+										<div class="ah-stars-box">
+											<span>Оценка:</span>
+											<ul class="ah-stars-list">
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-gr"></span></li>
+											</ul>
+										</div>
+										<span class="ah-stars-spandate">09 Фев 2016 в 19:46</span>
+									</div>
+									<div class="ah-stars-right">
+										<span class="ah-stars-texttitle">Все круто!</span>
+										<p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
+									</div>
+								</div>
+								<div class="ah-stars-item">
+									<div class="ah-stars-left">
+										<span class="ah-stars-title">Иван сергеевич</span>
+										<div class="ah-stars-box">
+											<span>Оценка:</span>
+											<ul class="ah-stars-list">
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-gr"></span></li>
+											</ul>
+										</div>
+										<span class="ah-stars-spandate">09 Фев 2016 в 19:46</span>
+									</div>
+									<div class="ah-stars-right">
+										<span class="ah-stars-texttitle">Все круто!</span>
+										<p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
+									</div>
+								</div>
+								<div class="ah-stars-item">
+									<div class="ah-stars-left">
+										<span class="ah-stars-title">Иван сергеевич</span>
+										<div class="ah-stars-box">
+											<span>Оценка:</span>
+											<ul class="ah-stars-list">
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-gr"></span></li>
+											</ul>
+										</div>
+										<span class="ah-stars-spandate">09 Фев 2016 в 19:46</span>
+									</div>
+									<div class="ah-stars-right">
+										<span class="ah-stars-texttitle">Все круто!</span>
+										<p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
+									</div>
+								</div>
+								<div class="ah-stars-item">
+									<div class="ah-stars-left">
+										<span class="ah-stars-title">Иван сергеевич</span>
+										<div class="ah-stars-box">
+											<span>Оценка:</span>
+											<ul class="ah-stars-list">
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-yel"></span></li>
+												<li><span class="ah-stars-gr"></span></li>
+											</ul>
+										</div>
+										<span class="ah-stars-spandate">09 Фев 2016 в 19:46</span>
+									</div>
+									<div class="ah-stars-right">
+										<span class="ah-stars-texttitle">Все круто!</span>
+										<p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
+									</div>
+								</div>
+								<a href="#" class="ah-novelty-link">Добавить отзыв</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<div class="clearfix"></div>
-	<?php require_once('includes/popular.php'); ?>
+	<?php require_once('includes/popular_cardprod.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 		<div class="popup zoom-anim-dialog mfp-hide" id="call-back">

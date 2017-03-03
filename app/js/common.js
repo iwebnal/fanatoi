@@ -42,6 +42,20 @@ $(function() {
         
     });
 
+    $('.ah-cardslider').owlCarousel({
+        items:1,
+        loop:false,
+        center:true,
+        margin:0,
+        nav: true,
+        navText:['<span class="arrow-left1"></span>','<span class="arrow-right1"></span>'],
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+
+    /* ********************************************** */
+
     /*tabs*/
         $('#az-tab-basket').click(function(){
             $(this).parent().removeClass('az-tab-cond2 az-tab-cond3').addClass('az-tab-cond1')
