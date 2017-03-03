@@ -78,5 +78,31 @@ $(function() {
       $(this).parent().removeClass('error');
     }
   });
+
+  jQuery("#az-slider").slider({
+    min: parseInt($("input#minCost").val()),
+    max: $("input#maxCost").val(),
+    values: [$("input#minCost").val(),$("input#maxCost").val()],
+    range: true,
+    stop: function(event, ui) {
+      // alert(1);
+      jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
+      jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
+      },
+      slide: function(event, ui){
+      jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
+      jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
+      }
+  });
+
+  $("input#minCost").width((jQuery("input#minCost").val().length+1)*8);
+  $("input#maxCost").width((jQuery("input#maxCost").val().length+1)*8);
   
+  $(".az-filter-title").click(function(){
+    if(window.matchMedia( "(max-width: 768px)" ).matches){
+      $(this).parent('.az-filter').toggleClass('open');
+      $(this).next('div').slideToggle(300);
+    }
+  });
+
 });

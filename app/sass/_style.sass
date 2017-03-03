@@ -259,6 +259,7 @@ a[href^=tel]
 		padding: 0 30px 0 15px
 		font-family: "ArimoRegular"
 		font-size: 12px
+		outline: none
 	input[type="submit"]
 		width: 16px
 		height: 30px
@@ -267,6 +268,7 @@ a[href^=tel]
 		top: 0
 		right: 15px
 		border: none
+		outline: none
 
 .az-tel
 	padding-top: 16px
@@ -1275,3 +1277,187 @@ input.error, textarea.error
 		&::before
 			background: url(../img/az-print.png) no-repeat center
 			width: 16px
+
+// *********************** Стили для бегунков ************************************
+
+/* Ширина слайдера */
+#az-slider
+	width: 100%
+
+
+/* Контейнер слайдера */
+.ui-slider
+	position: relative
+	border-radius: 3px
+/* Ползунок */
+.ui-slider .ui-slider-handle
+	position: absolute;
+	z-index: 2
+	width: 20px  /* Задаем нужную ширину */
+	height: 20px  /* и высоту */
+	background-color: #2c82c9
+	// background: url(../img/slider.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+	cursor: pointer
+	border-radius: 10px
+
+.ui-slider .ui-slider-range
+	position: absolute
+	z-index: 1
+	font-size: .7em
+	display: block
+	border: 0
+	overflow: hidden
+
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal
+	height: 3px /* задаем высоту согласно дизайна */
+
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle
+	top: -7px
+	margin-left: -6px
+
+.ui-slider-horizontal .ui-slider-range
+	top: 0px
+	height: 100%
+	background: #c2c2c2
+
+.ui-slider-horizontal .ui-slider-range-min
+	left: 0
+
+.ui-slider-horizontal .ui-slider-range-max 
+	right: 0
+
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content
+	// border: 1px solid #D4D4D4
+	background: #fff
+
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header
+	border: 1px solid #D4D4D4
+	background: #2c82c9
+
+/* скругление для полосы слайдера */
+.ui-corner-all
+	// -moz-border-radius: 3px
+	// -webkit-border-radius: 3px
+	// border-radius: 3px
+	height: 5px
+	background: #fba026
+
+// *************************** Стили для бегунков ********************************
+
+.az-range
+	input
+		padding: 0
+		border: none
+		text-align: center
+.az-filter
+	margin: 0 -15px
+	padding: 0 8px
+	position: relative
+.az-filter-title
+	color: #fefeff
+	background: #2c82c9 url(../img/)
+	display: block
+	width: 100%
+	height: 40px
+	line-height: 40px
+	text-align: center
+	font-size: 16px
+	text-transform: uppercase
+	font-family: "ArimoBold"
+	position: relative
+	cursor: pointer
+	&::before
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		height: 5px
+		background: #1f639c
+.az-filter.open
+	padding: 0
+	.az-filter-title
+		padding-left: 30px
+		background: #2c82c9 url(../img/az-filter-close.png) no-repeat 15px center
+		&::before
+			display: none
+.az-range
+	padding: 30px 30px 20px
+	text-align: center
+	background: #ececec
+	span, input
+		font-size: 16px
+		line-height: 20px
+		color: #2e2d2f
+		font-family: "ArimoRegular"
+		background: #ececec
+#az-slider
+	margin-bottom: 25px
+
+.az-filter-inner
+	background: #ececec
+	padding-bottom: 12px
+	button[type="submit"]
+		padding-left: 0
+		background: #fba026 url(../img/az-filter-submit.png) no-repeat 17px center
+		height: 40px
+		line-height: 40px
+		font-size: 14px
+		font-family: "ArimoBold"
+		color: #282729
+		position: relative
+		border-radius: 0
+		border: none
+		display: block
+		padding-left: 30px
+		max-width: 170px
+		width: 100%
+		text-transform: uppercase
+		letter-spacing: 0.15em
+		margin: 0 auto
+		&:hover
+			color: #fff
+			background: #fba026 url(../img/az-filter-submit-hover.png) no-repeat 17px center
+		&::before
+			content: ""
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 5px
+			background: #db8818
+.az-filter-section-title
+	font-size: 20px
+	line-height: 26px
+	color: #000
+	font-family: "ArimoBold"
+	display: block
+	margin-bottom: 10px
+.az-filter-section
+	padding: 0 30px 20px
+	input[type="checkbox"]
+		display: none
+	label
+		margin-left: 23px
+		padding-left: 22px
+		font-size: 16px
+		line-height: 26px
+		color: #000
+		font-family: "ArimoRegular"
+		font-weight: normal
+		background: url(../img/az-filter-check.png) no-repeat left center
+		cursor: pointer
+	input[type="checkbox"]:checked+label
+		background: url(../img/az-filter-checked.png) no-repeat left center
+
+.az-form-wrap
+	position: absolute
+	display: none
+	top: 40px
+	left: 0
+	width: 100%
+	z-index: 6
