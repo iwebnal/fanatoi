@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Card_Product</title>
+	<title>Новости</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +32,7 @@
 
 <body>
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/breadcrumbs_map.php'); ?>
+	<?php require_once('includes/breadcrumbs_news.php'); ?>
 	<div class="clearfix"></div>
 
 	<section class="ah-card-product">
@@ -96,7 +96,7 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<div class="ah-cardproduct-topwrapp">
-								<span class="ah-cardproduct-title">Новости</span>
+								<span class="ah-cardproduct-title ah-news-title">Новости</span>
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -104,30 +104,30 @@
 							<div class="ah-news-item">
 								<div class="row">
 									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -135,34 +135,34 @@
 							</div>
 						</div>
 						<div class="clearfix"></div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
 							<div class="ah-news-item">
 								<div class="row">
 									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -170,39 +170,59 @@
 							</div>
 						</div>
 						<div class="clearfix"></div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
 							<div class="ah-news-item">
 								<div class="row">
 									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
-										<div class="ah-news-wrapp">
+										<div class="ah-news-wrapp ah-news-wrapp1">
 											<span class="ah-news-span">23.02.2015</span>
 											<div class="ah-news-imgbox">
 												<img src="img/ah-news.jpg" class="img-responsive" alt="ah-news">
 											</div>
-											<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
+											<a href="#" class="ah-news-text ah-news-text1">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 										</div>
 									</div>
 									<div class="clearfix"></div>
 									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-										<a href="#" class="ah-novelty-link">Все новости</a>
+										<a href="#" class="ah-novelty-link ah-news-link">Показать все</a>
+									</div>
+									<div class="clearfix"></div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="ah-pagination hidden-xs">
+											<div class="ah-pagination-left">
+												<a href="#">Назад</a>
+											</div>
+											<div class="ah-pagination-center">
+												<ul class="ah-pagination-list">
+													<li><a href="#">1</a></li>
+													<li><a href="#">2</a></li>
+													<li><a href="#">3</a></li>
+													<li><a href="#">4</a></li>
+													<li><a href="#">5</a></li>
+												</ul>
+											</div>
+											<div class="ah-pagination-right">
+												<a href="#">Далее</a>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>

@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<ul>
 					<li><a href="#">Главная</a></li>
-					<li><span>Контакты</span></li>
+					<li><span>Новости</span></li>
 				</ul>
 			</div>
 		</div>
