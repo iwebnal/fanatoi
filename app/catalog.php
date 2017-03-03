@@ -397,6 +397,9 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<a href="#" class="ah-novelty-link">Все подарочные наборы</a>
+						</div>
 					</div>
 				</div>
 			</div>
