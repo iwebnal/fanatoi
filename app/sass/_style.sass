@@ -116,7 +116,6 @@ a[href^=tel]
 	position: relative
 	&:hover
 		background: #fba026 url(../img/novelty-icon1.png) no-repeat 14px center
-
 	&::before
 		content: ""
 		position: absolute
@@ -598,6 +597,7 @@ input.error, textarea.error
 .az-region
 	display: block
 	text-align: center
+	margin-bottom: 13px
 	.az-region-title
 		padding-left: 16px
 		vertical-align: middle
@@ -630,7 +630,6 @@ input.error, textarea.error
 	line-height: 14px
 	display: inline-block
 	color: #000
-	margin-bottom: 13px
 .az-table-basket
 	width: calc(100% + 16px)
 	margin-right: -8px
@@ -736,7 +735,7 @@ input.error, textarea.error
 		padding: 0px 4px
 .ah-card-plus, .ah-card-min
 	display: inline-block
-	font-family: "RobotoCondensedBold", sans-serif
+	font-family: "ArimoBold", sans-serif
 	width: 20px
 	height: 20px
 	border-radius: 50%
@@ -756,3 +755,523 @@ input.error, textarea.error
 		height: auto
 		max-width: 100%
 		width: auto
+
+/*cupon*/
+.az-cupon
+	background: #ececec
+	margin: 20px -15px 0
+	padding: 15px 8px 0
+.az-cupon-sum
+	font-family: "ArimoRegular"
+	font-size: 18px
+	color: #000
+	line-height: 32px
+.az-cupon-sum-end
+	font-family: "ArimoBold"
+	font-size: 22px
+	color: #000
+	line-height: 28px
+.az-cupon-title
+	font-family: "ArimoBold"
+	font-size: 22px
+	color: #000
+	margin-bottom: 12px
+	display: inline-block
+.az-cupon-form
+	display: table
+	width: 100%
+	// font-size: 0
+	>div
+		display: table-cell
+		padding: 0
+		vertical-align: middle
+		&:first-child
+			width: 10000px
+		>input, >button
+			width: 100%
+			padding: 0 8px
+			height: 40px
+			border: 0
+			margin: 0
+			margin: 0
+		button
+			height: 40px
+			line-height: 40px
+			font-size: 16px
+			font-family: "ArimoBold"
+			color: #282729
+			position: relative
+			text-align: center
+			background: #fba026
+			text-transform: uppercase
+			letter-spacing: 0.15em
+			&:hover
+				color: #fff
+			&::before
+				content: ""
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 100%
+				height: 5px
+				background: #db8818
+		input
+			border: 1px solid #afafaf
+			border-right: none
+
+.az-cupon-left, .az-cupon-right
+	margin-bottom: 20px
+
+.az-promo-itog
+	padding-bottom: 30px
+
+.az-promo
+	margin: 0 -15px
+	padding: 15px 8px 0
+
+.az-itog
+	margin: 26px -15px 0
+	padding: 26px 2px 11px
+.az-itog
+	border: 5px solid #ececec
+.az-itog-sum
+	font-family: "ArimoBold"
+	font-size: 26px
+	color: #000
+	line-height: 28px
+	display: inline-block
+	margin-bottom: 10px
+	text-transform: uppercase
+.az-offer
+	height: 50px
+	line-height: 50px
+	font-size: 14px
+	font-family: "ArimoBold"
+	color: #282729
+	position: relative
+	text-align: center
+	background: #fba026
+	text-transform: uppercase
+	letter-spacing: 0.15em
+	display: inline-block
+	min-width: 246px
+	margin-top: 10px
+	&:hover
+		color: #fff
+	&::before
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		height: 5px
+		background: #db8818
+
+/*reg-log*/
+.az-reg-log
+	background: #e9e9e9
+	margin: 0 -15px 30px 
+	padding: 20px 8px 28px
+	p
+		color: #2e2d2f
+		font-family: "ArimoRegular"
+		line-height: 22px
+		font-size: 16px
+		a
+			color: #2c82c9
+			text-decoration: underline
+	ul
+		margin-bottom: 20px
+		>li
+			color: #2e2d2f
+			font-family: "ArimoRegular"
+			line-height: 22px
+			font-size: 16px
+			padding-left: 12px
+			background: url(../img/az-list-style-img.png) no-repeat left 7px
+	button
+		height: 50px
+		line-height: 50px
+		font-size: 12px
+		font-family: "ArimoBold"
+		color: #282729
+		position: relative
+		text-align: center
+		background: #fba026
+		text-transform: uppercase
+		letter-spacing: 0.01em
+		border: none
+		width: 100%
+		margin-top: 24px
+		&:hover
+			color: #fff
+		&::before
+			content: ""
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 5px
+			background: #db8818
+.az-reg-log-title
+	font-family: "ArimoBold"
+	font-size: 24px
+	color: #000
+	line-height: 24px
+	display: inline-block
+	margin-bottom: 20px
+	text-transform: uppercase
+	a
+		color: #2c82c9
+		position: relative
+		&::before
+			content: ""
+			position: absolute
+			width: 100%
+			height: 1px
+			left: 0
+			bottom: 3px
+			background: repeating-linear-gradient(to right, #2c82c9 0px, #2c82c9 2px, #fff 2px, #fff 4px)
+.az-label-input
+	display: table
+	margin-bottom: 22px
+	width: 100%
+	>div
+		display: table-cell
+		vertical-align: middle
+		&:first-child
+			width: 81px
+			text-align: right
+			padding-right: 10px
+		label
+			color: #2e2d2f
+			font-family: "ArimoRegular"
+			line-height: 22px
+			font-size: 16px
+			font-weight: normal
+			margin: 0
+			padding: 0
+		input
+			width: 100%
+			height: 40px
+			border: 1px solid #afafaf
+			line-height: 40px
+			padding: 0 8px
+
+.az-reg-log-soc
+	color: #2e2d2f
+	font-family: "ArimoRegular"
+	line-height: 22px
+	font-size: 16px
+	span
+		vertical-align: middle
+	a
+		display: inline-block
+		margin: 0 3px
+
+/*tab-delivery*/
+.az-tab-delivery
+	margin: 0 -15px
+	padding: 8px
+	p
+		font-size: 14px
+		color: #000
+		line-height: 16px
+		margin: 0
+	span
+		font-size: 12px
+		color: #000
+		line-height: 14px
+.az-tab-delivery-marg
+	margin-bottom: 15px
+	display: inline-block
+.az-tabcheckbox
+	label
+		margin: 0
+	input[type="radio"]
+		display: none
+	.az-deliv-checkbox
+		border: 3px solid transparent
+		display: table
+		width: 100%
+		cursor: pointer
+		height: 100px
+		>div
+			display: table-cell
+			vertical-align: middle
+			&:nth-child(1)
+				width: 50px
+				padding: 9px
+				span
+					width: 30px
+					height: 30px
+					display: inline-block
+					border: 1px solid #afafaf
+					position: relative
+			&:nth-child(2)
+				width: 91px
+				text-align: center
+				.az-deliv-img
+					width: 91px
+					img
+						width: auto
+						max-width: 100%
+						height: auto
+						max-height: 100%
+				img:first-child
+					display: inline-block
+				img:nth-child(2)
+					display: none
+			&:nth-child(3)
+				padding: 9px
+				color: #000
+				font-size: 14px
+				font-family: "ArimoRegular"
+				font-weight: normal
+				line-height: 16px
+				&.style2
+					font-size: 18px
+					line-height: 26px
+	input[type="radio"]:checked~.az-deliv-checkbox
+		border: 3px solid #2c82c9
+		>div
+			&:nth-child(1)
+				span::before
+					content: ""
+					position: absolute
+					top: 5px
+					left: 5px
+					width: 29px
+					height: 23px
+					background: url(../img/az-checkbox.png) no-repeat center center
+			&:nth-child(2)
+				img:first-child
+					display: none
+				img:nth-child(2)
+					display: inline-block
+			&:nth-child(3)
+				color: #2c82c9
+
+.az-tab-comment
+	margin: 10px -15px 0
+	padding: 15px 8px
+	background: #e9e9e9
+	.pull-left
+		width: 33%
+		max-width: 220px
+	.pull-right
+		width: 67%
+		min-width: calc(100% - 220px)
+	span
+		display: inline-block
+		color: #000
+		font-size: 16px
+		font-family: "ArimoRegular"
+		font-weight: normal
+		line-height: 18px
+		padding-right: 3px
+	textarea
+		width: 100%
+		height: 160px
+		border: 1px solid #afafaf
+		color: #000
+		font-size: 14px
+		font-family: "ArimoRegular"
+		font-weight: normal
+		line-height: 18px
+		padding: 6px
+		resize: none
+
+/*az-pay*/
+.az-pay
+	padding-bottom: 23px
+.az-pay-left
+	padding-top: 30px
+	margin: 0 -15px
+	.az-title-wrap
+		margin-bottom: 0
+.az-pay-radio-section
+	padding: 20px 0 20px 0
+	border-bottom: 1px solid #d9d9d9
+	span
+		color: #2e2d2f
+		width: 100%
+		display: inline-block
+		text-align: center
+		font-size: 16px
+		font-family: "ArimoBold"
+		font-weight: normal
+		line-height: 26px
+.az-pay-radio
+	padding-left: 65px
+	label
+		margin: 0
+	input[type="radio"]
+		display: none
+	.az-deliv-checkbox
+		display: table
+		width: 100%
+		cursor: pointer
+		height: 38px
+		>div
+			display: table-cell
+			vertical-align: middle
+			&:nth-child(1)
+				width: 20px
+				padding: 0 15px
+				font-size: 0
+				span
+					width: 20px
+					height: 20px
+					display: inline-block
+					background: url(../img/az-pay-radio.png) no-repeat center
+			&:nth-child(2)
+				text-align: left
+				width: 40px
+				.az-deliv-img
+					display: inline-block
+					img:first-child
+						display: inline-block
+					img:nth-child(2)
+						display: none
+			&:nth-child(3)
+				// padding: 12px
+				color: #2e2d2f
+				font-size: 16px
+				font-family: "ArimoRegular"
+				font-weight: normal
+				line-height: 20px
+	input[type="radio"]:checked~.az-deliv-checkbox
+		>div
+			&:nth-child(1)
+				span
+					background: url(../img/az-pay-radio-checked.png) no-repeat center
+			&:nth-child(2)
+				img:first-child
+					display: none
+				img:nth-child(2)
+					display: inline-block
+			&:nth-child(3)
+				color: #2c82c9
+
+/*tab4*/
+.az-thank-title
+	color: #2e2d2f
+	font-size: 22px
+	font-family: "ArimoBold"
+	font-weight: normal
+	line-height: 22px
+	display: inline-block
+	width: 100%
+	padding: 23px 0 15px
+.az-thank
+	p
+		color: #3c3b3e
+		font-size: 16px
+		font-family: "ArimoRegular"
+		font-weight: normal
+		line-height: 22px
+		margin-bottom: 16px
+.az-thank-order-title
+	color: #3c3b3e
+	font-size: 24px
+	font-family: "ArimoBold"
+	font-weight: normal
+	line-height: 26px
+	text-transform: uppercase
+	margin-bottom: 5px
+	display: inline-block
+.az-thank-order-subtitle
+	color: #3c3b3e
+	font-size: 16px
+	font-family: "ArimoRegular"
+	font-weight: normal
+	line-height: 22px
+	margin-bottom: 10px
+	display: inline-block
+.az-thank-customer-data
+	color: #000
+	font-size: 16px
+	font-family: "ArimoBold"
+	font-weight: normal
+	line-height: 26px
+	margin-bottom: 10px
+	display: inline-block
+.az-thank-customer-datas
+	color: #3c3b3e
+	font-size: 16px
+	font-family: "ArimoRegular"
+	font-weight: normal
+	line-height: 22px
+	display: inline-block
+	width: 220px
+	margin: 0 auto
+	text-align: left
+	// margin-bottom: 16px
+
+
+.az-address-itog
+	padding-bottom: 18px
+
+.az-address
+	margin: 0 -15px
+	padding: 0 8px
+.az-address-title
+	font-size: 22px
+	font-family: "ArimoBold"
+	font-weight: normal
+	line-height: 26px
+	width: 100%
+	text-align: center
+	display: block
+	margin: 15px 0
+.az-address-text
+	font-size: 18px
+	font-family: "ArimoRegular"
+	font-weight: normal
+	line-height: 26px
+
+
+.az-table-head
+	font-size: 22px
+	font-family: "ArimoBold"
+	font-weight: normal
+	line-height: 26px
+	color: #000
+	text-transform: uppercase
+	margin: 30px 0 0
+	display: block
+
+
+.az-margin-top23
+	margin-top: 23px !important
+
+/*go back and print*/
+.az-goback-print
+	margin-bottom: 20px
+	.az-go-back, .az-print
+		display: inline-block
+		color: #64a3d7
+		text-decoration: underline
+		position: relative
+		font-family: "ArimoRegular"
+		font-size: 16px
+		line-height: 22px
+		&:hover
+			text-decoration: none
+		&::before
+			content: ""
+			position: absolute
+			top: 0
+			right: calc(100% + 6px)
+			height: 100%
+	.az-go-back
+		margin-left: 16px
+		&::before
+			background: url(../img/az-go-back.png) no-repeat center
+			width: 10px
+	.az-print
+		margin-left: 23px
+		&::before
+			background: url(../img/az-print.png) no-repeat center
+			width: 16px
