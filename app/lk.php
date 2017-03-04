@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Card_Product</title>
+	<title>lk</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -99,11 +99,9 @@
 							<tr>
 								<th>Товар</th>
 								<th>Описание</th>
-								<th>Доступно</th>
 								<th>Цена за единицу</th>
 								<th>Кол-во</th>
 								<th>Итоговая сумма</th>
-								<th></th>
 							</tr>
 							<tr>
 								<td>
@@ -114,7 +112,6 @@
 								<td>
 									<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
 								</td>
-								<td>В наличии</td>
 								<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
 								<td>
 									<span>
@@ -122,7 +119,6 @@
 									</span>
 								</td>
 								<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>
@@ -133,7 +129,6 @@
 								<td>
 									<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
 								</td>
-								<td>В наличии</td>
 								<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
 								<td>
 									<span>
@@ -141,7 +136,6 @@
 									</span>
 								</td>
 								<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
-								<td></td>
 							</tr>
 						</table>
 						<div class="az-address-itog style2">
