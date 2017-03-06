@@ -50,94 +50,99 @@
 				</div>
 				<div class="az-lk-table">
 					<span class="az-lk-table-title">Список заказов:</span>
-					<table class="az-order-list">
-						<tr>
-							<th><span class="hidden-sm hidden-md hidden-lg">№</span><span class="hidden-xs">Номер заказа</span></th>
-							<th><span>Дата</span></th>
-							<th><span>Сумма</span></th>
-							<th><span class="hidden-sm hidden-md hidden-lg">Статус</span><span class="hidden-xs">Статус заказа</span></th>
-						</tr>
-						<tr>
-							<td><a href="#">1-999-956</a></td>
-							<td>29.12.2017</td>
-							<td>5 867 руб</td>
-							<td><span class="az-process">в обработке</span></td>
-						</tr>
-						<tr>
-							<td><a href="#">1-999-956</a></td>
-							<td>29.12.2017</td>
-							<td>10 438 руб.</td>
-							<td><span class="az-cancel">отменен</span></td>
-						</tr>
-						<tr>
-							<td><a href="#">1-999-956</a></td>
-							<td>29.12.2017</td>
-							<td>5 867 руб</td>
-							<td><span class="az-deliver">доставлен</span></td>
-						</tr>
-						<tr>
-							<td><a href="#">1-999-956</a></td>
-							<td>29.12.2017</td>
-							<td>5 867 руб</td>
-							<td><span class="az-process">в обработке</span></td>
-						</tr>
-						<tr>
-							<td><a href="#">1-999-956</a></td>
-							<td>29.12.2017</td>
-							<td>10 438 руб.</td>
-							<td><span class="az-cancel">отменен</span></td>
-						</tr>
-						<tr>
-							<td><a href="#">1-999-956</a></td>
-							<td>29.12.2017</td>
-							<td>5 867 руб</td>
-							<td><span class="az-deliver">доставлен</span></td>
-						</tr>
-					</table>
+					<div class="az-order-list">
+						<div>
+							<span><span class="hidden-sm hidden-md hidden-lg">№</span><span class="hidden-xs">Номер заказа</span></span>
+							<span><span>Дата</span></span>
+							<span><span>Сумма</span></span>
+							<span><span class="hidden-sm hidden-md hidden-lg">Статус</span><span class="hidden-xs">Статус заказа</span></span>
+						</div>
+						<div>
+							<span><a href="#">1-999-956</a></span>
+							<span>29.12.2017</span>
+							<span>5 867 руб</span>
+							<span><span class="az-process">в обработке</span></span>
+						</div>
+						<div>
+							<span><a href="#">1-999-956</a></span>
+							<span>29.12.2017</span>
+							<span>10 438 руб.</span>
+							<span><span class="az-cancel">отменен</span></span>
+						</div>
+						<div>
+							<span><a href="#">1-999-956</a></span>
+							<span>29.12.2017</span>
+							<span>5 867 руб</span>
+							<span><span class="az-deliver">доставлен</span></span>
+						</div>
+						<div>
+							<span><a href="#">1-999-956</a></span>
+							<span>29.12.2017</span>
+							<span>5 867 руб</span>
+							<span><span class="az-process">в обработке</span></span>
+						</div>
+						<div>
+							<span><a href="#">1-999-956</a></span>
+							<span>29.12.2017</span>
+							<span>10 438 руб.</span>
+							<span><span class="az-cancel">отменен</span></span>
+						</div>
+						<div>
+							<span><a href="#">1-999-956</a></span>
+							<span>29.12.2017</span>
+							<span>5 867 руб</span>
+							<span><span class="az-deliver">доставлен</span></span>
+							<span>
+								<table class="az-table-basket style3">
+									<tr>
+										<th>Товар</th>
+										<th>Описание</th>
+										<th><span class="hidden-xs">Цена за единицу</span><span class="hidden-sm hidden-md hidden-lg">Цена за ед.</span></th>
+										<th>Кол-во</th>
+										<th><span class="hidden-xs">Итоговая сумма</span><span class="hidden-sm hidden-md hidden-lg">Итог. ст.</span></th>
+									</tr>
+									<tr>
+										<td>
+											<div class="az-basket-img">
+												<img src="img/novelty1.jpg" alt="photo">
+											</div>
+											<span class="az-basket-item-name hidden-sm hidden-md hidden-lg">Дракон из “Как приручить дракона”</span>
+										</td>
+										<td>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+										</td>
+										<td>1 800 <strong>руб.</strong></td>
+										<td>
+											<span>
+												2
+											</span>
+										</td>
+										<td>3 900 <strong>руб.</strong></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="az-basket-img">
+												<img src="img/novelty1.jpg" alt="photo">
+											</div>
+											<span class="az-basket-item-name hidden-sm hidden-md hidden-lg">Дракон из “Как приручить дракона”</span>
+										</td>
+										<td>
+											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+										</td>
+										<td>1 800 <strong>руб.</strong></td>
+										<td>
+											<span>
+												2
+											</span>
+										</td>
+										<td>3 900 <strong>руб.</strong></td>
+									</tr>
+								</table>
+							</span>
+						</div>
+					</div>
 					<div class="col-xs-12 az-bg-gray">
-						<table class="az-table-basket style2">
-							<tr>
-								<th>Товар</th>
-								<th>Описание</th>
-								<th>Цена за единицу</th>
-								<th>Кол-во</th>
-								<th>Итоговая сумма</th>
-							</tr>
-							<tr>
-								<td>
-									<div class="az-basket-img">
-										<img src="img/novelty1.jpg" alt="photo">
-									</div>
-								</td>
-								<td>
-									<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
-								</td>
-								<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
-								<td>
-									<span>
-										2
-									</span>
-								</td>
-								<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
-							</tr>
-							<tr>
-								<td>
-									<div class="az-basket-img">
-										<img src="img/novelty1.jpg" alt="photo">
-									</div>
-								</td>
-								<td>
-									<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
-								</td>
-								<td class="clearfix"><span class="hidden-sm hidden-md hidden-lg">за еденицу:</span> 1 800 <strong>руб.</strong></td>
-								<td>
-									<span>
-										2
-									</span>
-								</td>
-								<td><span class="hidden-sm hidden-md hidden-lg">Итого:</span> 3 900 <strong>руб.</strong></td>
-							</tr>
-						</table>
+						
 						<div class="az-address-itog style2">
 							<div class="row">
 								<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">

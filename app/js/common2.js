@@ -95,14 +95,20 @@ $(function() {
       }
   });
 
-  $("input#minCost").width((jQuery("input#minCost").val().length+1)*8);
-  $("input#maxCost").width((jQuery("input#maxCost").val().length+1)*8);
-  
+  if($("input#minCost").length>0&&$("input#maxCost").length>0){
+    $("input#minCost").width((jQuery("input#minCost").val().length+1)*8);
+    $("input#maxCost").width((jQuery("input#maxCost").val().length+1)*8);
+  }
+
   $(".az-filter-title").click(function(){
     if(window.matchMedia( "(max-width: 768px)" ).matches){
       $(this).parent('.az-filter').toggleClass('open');
       $(this).next('div').slideToggle(300);
     }
   });
-
+  $(".az-order-list>div").click(function(){
+    $(this).children('span:nth-child(5)').slideToggle(300);
+    // alert($(this).children('td:nth-child(5)').width());
+  });
+  
 });
