@@ -107,8 +107,14 @@ $(function() {
     }
   });
   $(".az-order-list>div").click(function(){
-    $(this).children('span:nth-child(5)').slideToggle(300);
-    // alert($(this).children('td:nth-child(5)').width());
+    var is_open = true;
+    if($(this).children('span:nth-child(5)').css('display') == "none"){
+      is_open = false;
+    }
+    $(".az-order-list>div").children('span:nth-child(5)').slideUp(300);
+    if(!is_open){
+      $(this).children('span:nth-child(5)').slideToggle(300);
+    }
   });
   
 });
