@@ -41,7 +41,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 minpadd">
+			<div class="col-lg-3 col-md-3 col-sm-4 hidden-xs minpadd">
 				<div class="ah-novelty-wrapp">
 					<div class="ah-popular-imgbox">
 						<img src="img/popular3.jpg" class="img-responsive" alt="popular3">
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-3 hidden-sm col-xs-6 minpadd">
+			<div class="col-lg-3 col-md-3 hidden-sm hidden-xs minpadd">
 				<div class="ah-novelty-wrapp">
 					<div class="ah-popular-imgbox">
 						<img src="img/popular4.jpg" class="img-responsive" alt="popular4">
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
 				<a href="#" class="ah-novelty-link">Все популярные товары</a>
 			</div>
 		</div>

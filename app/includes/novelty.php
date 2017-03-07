@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<a href="#" class="ah-novelty-link">Смотреть все новинки</a>
+				<a href="#" class="ah-novelty-link ah-noveltylink1">Смотреть все новинки</a>
 			</div>
 		</div>
 	</div>

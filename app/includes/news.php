@@ -14,7 +14,7 @@
 					<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="col-lg-4 col-md-4 col-sm-6 hidden-xs">
 				<div class="ah-news-wrapp">
 					<span class="ah-news-span">23.02.2015</span>
 					<div class="ah-news-imgbox">
@@ -23,7 +23,7 @@
 					<a href="#" class="ah-news-text">В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft</a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
+			<div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
 				<div class="ah-news-wrapp">
 					<span class="ah-news-span">23.02.2015</span>
 					<div class="ah-news-imgbox">
@@ -34,7 +34,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<a href="#" class="ah-novelty-link">Все новости</a>
+				<a href="#" class="ah-novelty-link ah-noveltylink1">Все новости</a>
 			</div>
 		</div>
 	</div>

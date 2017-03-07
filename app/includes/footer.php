@@ -31,9 +31,9 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 				<div class="ah-footer-wrapp1">
-					<a href="tel:+78004460320" class="ah-footer-tel">+7 800 446-03-20</a>
-					<a href="#" class="ah-footer-link1">Заказать обратный звонок</a>
-					<a href="mailto:info@fanatoy.ru" class="ah-footer-mail">info@fanatoy.ru</a>
+					<a href="tel:+78004460320" class="ah-footer-tel">+7 800 446-03-20</a><br>
+					<a href="#" class="ah-footer-link1">Заказать обратный звонок</a><br>
+					<a href="mailto:info@fanatoy.ru" class="ah-footer-mail">info@fanatoy.ru</a><br>
 				</div>
 			</div>
 			<div class="clearfix"></div>

@@ -171,7 +171,7 @@
 							<span class="az-title-wrap"><span class="az-title">Распродажа</span></span>
 						</div>
 						<div class="clearfix"></div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular1.jpg" class="img-responsive" alt="popular1">
@@ -189,7 +189,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular2.jpg" class="img-responsive" alt="popular2">
@@ -207,7 +207,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular3.jpg" class="img-responsive" alt="popular3">
@@ -225,7 +225,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular1.jpg" class="img-responsive" alt="popular1">
@@ -243,7 +243,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular2.jpg" class="img-responsive" alt="popular2">
@@ -261,7 +261,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular3.jpg" class="img-responsive" alt="popular3">
@@ -279,7 +279,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular1.jpg" class="img-responsive" alt="popular1">
@@ -297,7 +297,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 minpadd">
 							<div class="ah-novelty-wrapp">
 								<div class="ah-popular-imgbox">
 									<img src="img/popular2.jpg" class="img-responsive" alt="popular2">
