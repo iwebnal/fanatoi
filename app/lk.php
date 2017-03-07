@@ -41,126 +41,129 @@
 				<div class="col-xs-12">
 					<span class="az-title-wrap"><span class="az-title">Личный кабинет</span></span>
 				</div>
-				<div class="hidden-xs">
-					<ul>
-						<li><a href="#">Мой кабинет</a></li>
-						<li><span>Мои заказы</span></li>
-						<li><a href="#">Личные данные</a></li>
-					</ul>
-				</div>
-				<div class="az-lk-table">
-					<span class="az-lk-table-title">Список заказов:</span>
-					<div class="az-order-list">
-						<div>
-							<span><span class="hidden-sm hidden-md hidden-lg">№</span><span class="hidden-xs">Номер заказа</span></span>
-							<span><span>Дата</span></span>
-							<span><span>Сумма</span></span>
-							<span><span class="hidden-sm hidden-md hidden-lg">Статус</span><span class="hidden-xs">Статус заказа</span></span>
-						</div>
-						<div>
-							<span><a href="#">1-999-956</a></span>
-							<span>29.12.2017</span>
-							<span>5 867 руб</span>
-							<span><span class="az-process">в обработке</span></span>
-						</div>
-						<div>
-							<span><a href="#">1-999-956</a></span>
-							<span>29.12.2017</span>
-							<span>10 438 руб.</span>
-							<span><span class="az-cancel">отменен</span></span>
-						</div>
-						<div>
-							<span><a href="#">1-999-956</a></span>
-							<span>29.12.2017</span>
-							<span>5 867 руб</span>
-							<span><span class="az-deliver">доставлен</span></span>
-						</div>
-						<div>
-							<span><a href="#">1-999-956</a></span>
-							<span>29.12.2017</span>
-							<span>5 867 руб</span>
-							<span><span class="az-process">в обработке</span></span>
-						</div>
-						<div>
-							<span><a href="#">1-999-956</a></span>
-							<span>29.12.2017</span>
-							<span>10 438 руб.</span>
-							<span><span class="az-cancel">отменен</span></span>
-						</div>
-						<div>
-							<span><a href="#">1-999-956</a></span>
-							<span>29.12.2017</span>
-							<span>5 867 руб</span>
-							<span><span class="az-deliver">доставлен</span></span>
-							<span>
-								<table class="az-table-basket style3">
-									<tr>
-										<th>Товар</th>
-										<th>Описание</th>
-										<th><span class="hidden-xs">Цена за единицу</span><span class="hidden-sm hidden-md hidden-lg">Цена за ед.</span></th>
-										<th>Кол-во</th>
-										<th><span class="hidden-xs">Итоговая сумма</span><span class="hidden-sm hidden-md hidden-lg">Итог. ст.</span></th>
-									</tr>
-									<tr>
-										<td>
-											<div class="az-basket-img">
-												<img src="img/novelty1.jpg" alt="photo">
-											</div>
-											<span class="az-basket-item-name hidden-sm hidden-md hidden-lg">Дракон из “Как приручить дракона”</span>
-										</td>
-										<td>
-											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
-										</td>
-										<td>1 800 <strong>руб.</strong></td>
-										<td>
-											<span>
-												2
-											</span>
-										</td>
-										<td>3 900 <strong>руб.</strong></td>
-									</tr>
-									<tr>
-										<td>
-											<div class="az-basket-img">
-												<img src="img/novelty1.jpg" alt="photo">
-											</div>
-											<span class="az-basket-item-name hidden-sm hidden-md hidden-lg">Дракон из “Как приручить дракона”</span>
-										</td>
-										<td>
-											<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
-										</td>
-										<td>1 800 <strong>руб.</strong></td>
-										<td>
-											<span>
-												2
-											</span>
-										</td>
-										<td>3 900 <strong>руб.</strong></td>
-									</tr>
-								</table>
-							</span>
-						</div>
+				<div class="col-xs-12">
+					<div class="hidden-xs">
+						<ul class="az-lk-links">
+							<li><a href="#">Мой кабинет</a></li>
+							<li><span>Мои заказы</span></li>
+							<li><a href="#">Личные данные</a></li>
+						</ul>
 					</div>
-					<div class="col-xs-12 az-bg-gray">
-						
-						<div class="az-address-itog style2">
-							<div class="row">
-								<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-									<div class="az-address">
-										<span class="az-address-title">Адрес магазина:</span>
-										<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span><br>
-										<span class="az-address-text">Пн-Вс 10:00 - 22:00</span>
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-									<div class="az-itog">
-										<span class="az-itog-sum">Итого</span><br>
-										<span class="az-cupon-sum">Товаров на: 2 950 руб.</span><br>
-										<span class="az-cupon-sum">оставка: 0 руб.</span><br>
-										<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
-									</div>
-								</div>
+					<div class="az-lk-table">
+						<span class="az-lk-table-title">Список заказов:</span>
+						<div class="az-order-list">
+							<div class="az-row">
+								<span><span class="hidden-sm hidden-md hidden-lg">№</span><span class="hidden-xs">Номер заказа</span></span>
+								<span><span>Дата</span></span>
+								<span><span>Сумма</span></span>
+								<span><span class="hidden-sm hidden-md hidden-lg">Статус</span><span class="hidden-xs">Статус заказа</span></span>
 							</div>
+							<div class="az-row">
+								<span><a href="#">1-999-956</a></span>
+								<span>29.12.2017</span>
+								<span>5 867 руб</span>
+								<span><span class="az-process">в обработке</span></span>
+							</div>
+							<div class="az-row">
+								<span><a href="#">1-999-956</a></span>
+								<span>29.12.2017</span>
+								<span>10 438 руб.</span>
+								<span><span class="az-cancel">отменен</span></span>
+							</div>
+							<div class="az-row">
+								<span><a href="#">1-999-956</a></span>
+								<span>29.12.2017</span>
+								<span>5 867 руб</span>
+								<span><span class="az-deliver">доставлен</span></span>
+							</div>
+							<div class="az-row">
+								<span><a href="#">1-999-956</a></span>
+								<span>29.12.2017</span>
+								<span>5 867 руб</span>
+								<span><span class="az-process">в обработке</span></span>
+							</div>
+							<div class="az-row">
+								<span><a href="#">1-999-956</a></span>
+								<span>29.12.2017</span>
+								<span>10 438 руб.</span>
+								<span><span class="az-cancel">отменен</span></span>
+							</div>
+							<div class="az-row">
+								<span><a href="#">1-999-956</a></span>
+								<span>29.12.2017</span>
+								<span>5 867 руб</span>
+								<span><span class="az-deliver">доставлен</span></span>
+								<span>
+									<table class="az-table-basket style3">
+										<tr>
+											<th>Товар</th>
+											<th>Описание</th>
+											<th><span class="hidden-xs">Цена за единицу</span><span class="hidden-sm hidden-md hidden-lg">Цена за ед.</span></th>
+											<th>Кол-во</th>
+											<th><span class="hidden-xs">Итоговая сумма</span><span class="hidden-sm hidden-md hidden-lg">Итог. ст.</span></th>
+										</tr>
+										<tr>
+											<td>
+												<div class="az-basket-img">
+													<img src="img/novelty1.jpg" alt="photo">
+												</div>
+												<span class="az-basket-item-name hidden-sm hidden-md hidden-lg">Дракон из “Как приручить дракона”</span>
+											</td>
+											<td>
+												<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+											</td>
+											<td>1 800 <strong>руб.</strong></td>
+											<td>
+												<span>
+													2
+												</span>
+											</td>
+											<td>3 900 <strong>руб.</strong></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="az-basket-img">
+													<img src="img/novelty1.jpg" alt="photo">
+												</div>
+												<span class="az-basket-item-name hidden-sm hidden-md hidden-lg">Дракон из “Как приручить дракона”</span>
+											</td>
+											<td>
+												<span class="az-basket-item-name">Дракон из<br> “Как приручить дракона”</span>
+											</td>
+											<td>1 800 <strong>руб.</strong></td>
+											<td>
+												<span>
+													2
+												</span>
+											</td>
+											<td>3 900 <strong>руб.</strong></td>
+										</tr>
+									</table>
+									<div class="az-address-itog style2 clearfix">
+										<!-- <div class="row"> -->
+											<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+												<div class="az-address style3">
+													<span class="az-address-title">Адрес магазина:</span>
+													<span class="az-address-text">Москва,<br> ул. Академика Королева 12 офис 99</span>
+													<span class="az-address-text">Пн-Вс 10:00 - 22:00</span>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+												<div class="az-itog style3">
+													<span class="az-itog-sum">Итого</span>
+													<span class="az-cupon-sum">Товаров на: 2 950 руб.</span>
+													<span class="az-cupon-sum">оставка: 0 руб.</span>
+													<span class="az-cupon-sum-end">К оплате: 3 900 руб.</span>
+												</div>
+											</div>
+										<!-- </div> -->
+									</div>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-12 az-bg-gray">
+							
+							
 						</div>
 					</div>
 				</div>
