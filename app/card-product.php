@@ -219,9 +219,9 @@
 								<div class="ah-cardproduct-formbox">
 									<span class="ah-cardform-span">Количество:</span>
 									<form class="ah-cardproduct-form">
-										<a href="#" class="ah-card-plus">+</a>
-										<input type="text" value="2">
 										<a href="#" class="ah-card-min">-</a>
+										<input type="text" value="2">
+										<a href="#" class="ah-card-plus">+</a>
 									</form>
 								</div>
 							</div>
