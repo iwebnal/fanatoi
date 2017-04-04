@@ -5,11 +5,11 @@
 				<div class="ah-vkbox-wrapp">
 					<script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
 
-<!-- VK Widget -->
-<div id="vk_groups"></div>
-<script type="text/javascript">
-VK.Widgets.Group("vk_groups", {mode: 12, width: "auto", height: "455"}, 20003922);
-</script>
+						<!-- VK Widget -->
+						<div id="vk_groups"></div>
+						<script type="text/javascript">
+						VK.Widgets.Group("vk_groups", {mode: 12, width: "auto", height: "455"}, 20003922);
+					</script>
 				</div>
 			</div>
 		</div>
