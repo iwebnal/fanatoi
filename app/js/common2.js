@@ -81,24 +81,29 @@ $(function() {
 
   jQuery("#az-slider").slider({
     min: parseInt($("input#minCost").val()),
-    max: $("input#maxCost").val(),
-    values: [$("input#minCost").val(),$("input#maxCost").val()],
+    max: parseInt($("input#maxCost").val()),
+    values: [parseInt($("input#startCost").val()),parseInt($("input#endCost").val())],
     range: true,
     stop: function(event, ui) {
-      // alert(1);
-      jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
-      jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
-      },
-      slide: function(event, ui){
-      jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
-      jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
-      }
-  });
+      jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0));
+      jQuery("#spanMin").text(jQuery("#az-slider").slider("values",0));
+      jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1));
+      jQuery("#spanMax").text(jQuery("#az-slider").slider("values",1));
+    },
+    slide: function(event, ui){
+      jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0));
+      jQuery("#spanMin").text(jQuery("#az-slider").slider("values",0));
+      jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1));
+      jQuery("#spanMax").text(jQuery("#az-slider").slider("values",1));
+      // jQuery("input#minCost").val(jQuery("#az-slider").slider("values",0)).width((jQuery("input#minCost").val().length+1)*8);
+      // jQuery("input#maxCost").val(jQuery("#az-slider").slider("values",1)).width((jQuery("input#maxCost").val().length+1)*8);
+    }
+  }).draggable();
 
-  if($("input#minCost").length>0&&$("input#maxCost").length>0){
-    $("input#minCost").width((jQuery("input#minCost").val().length+1)*8);
-    $("input#maxCost").width((jQuery("input#maxCost").val().length+1)*8);
-  }
+  // if($("input#minCost").length>0&&$("input#maxCost").length>0){
+  //   $("input#minCost").width((jQuery("input#minCost").val().length+1)*8);
+  //   $("input#maxCost").width((jQuery("input#maxCost").val().length+1)*8);
+  // }
 
   $(".az-filter-title").click(function(){
     if(window.matchMedia( "(max-width: 768px)" ).matches){

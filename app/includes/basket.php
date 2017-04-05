@@ -51,9 +51,9 @@
 											<span>
 												<div class="ah-cardproduct-formbox az-style2">
 													<form class="ah-cardproduct-form az-style2">
-														<a href="#" class="ah-card-plus">+</a>
-														<input type="text" value="2">
 														<a href="#" class="ah-card-min">-</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-plus">+</a>
 													</form>
 												</div>
 											</span>
@@ -76,9 +76,9 @@
 											<span>
 												<div class="ah-cardproduct-formbox az-style2">
 													<form class="ah-cardproduct-form az-style2">
-														<a href="#" class="ah-card-plus">+</a>
-														<input type="text" value="2">
 														<a href="#" class="ah-card-min">-</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-plus">+</a>
 													</form>
 												</div>
 											</span>
@@ -101,9 +101,9 @@
 											<span>
 												<div class="ah-cardproduct-formbox az-style2">
 													<form class="ah-cardproduct-form az-style2">
-														<a href="#" class="ah-card-plus">+</a>
-														<input type="text" value="2">
 														<a href="#" class="ah-card-min">-</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-plus">+</a>
 													</form>
 												</div>
 											</span>
@@ -397,9 +397,9 @@
 											<span>
 												<div class="ah-cardproduct-formbox az-style2">
 													<form class="ah-cardproduct-form az-style2">
-														<a href="#" class="ah-card-plus">+</a>
-														<input type="text" value="2">
 														<a href="#" class="ah-card-min">-</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-plus">+</a>
 													</form>
 												</div>
 											</span>
@@ -422,9 +422,9 @@
 											<span>
 												<div class="ah-cardproduct-formbox az-style2">
 													<form class="ah-cardproduct-form az-style2">
-														<a href="#" class="ah-card-plus">+</a>
-														<input type="text" value="2">
 														<a href="#" class="ah-card-min">-</a>
+														<input type="text" value="2">
+														<a href="#" class="ah-card-plus">+</a>
 													</form>
 												</div>
 											</span>

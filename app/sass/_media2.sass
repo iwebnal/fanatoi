@@ -111,6 +111,23 @@
 				width: 20%
 				color: #2e2d2f
 				line-height: 26px
+
+	.az-lk
+		.az-address-title
+			font-size: 20px
+		.az-address-text
+			font-size: 16px
+		.az-itog.style3
+			padding: 10px
+		.az-itog-sum
+			font-size: 20px
+			margin-bottom: 5px
+		.az-cupon-sum
+			line-height: 24px		
+			font-size: 18px
+		.az-cupon-sum-end
+			font-size: 20px
+			margin-top: 5px
 	/**/
 
 
@@ -279,12 +296,13 @@
 				display: block
 				position: absolute
 				top: 130%
-				left: 20%
+				// left: 20%
+				left: -9999px
 				transform: translate(-20%, 0)
 				opacity: 0
 				z-index: -1
 				background: #fff
-				transition: all 0.3s ease-in-out
+				transition: opacity, top 0.3s ease-in-out
 				text-align: left
 				&::before
 					content: ''
@@ -311,6 +329,7 @@
 				top: 100%
 				opacity: 1
 				z-index: 6
+				left: 20%
 
 	.az-cart-menu-wrapper//, .az-user-menu
 		display: none !important
@@ -748,6 +767,7 @@
 					top: 100%
 					opacity: 1
 					z-index: 6
+					left: 20%
 		>div
 			display: inline-block
 	.az-user-menu

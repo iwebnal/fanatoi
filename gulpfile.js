@@ -23,6 +23,7 @@ gulp.task('scripts', function() {
 		'app/libs/bootstrap-select/bootstrap-select.js',
 		'app/libs/mask/jquery.mask.js',
 		'app/libs/jquery-ui/jquery-ui.js',
+		'app/libs/jquery-ui/jquery.ui.touch-punch.min.js',
 		// 'app/libs/bootstrap-select/defaults-ru_RU.js',
 		'app/libs/owl.carousel/owl.carousel.min.js',
 		// 'app/libs/mmenu/jquery.mmenu.min.all.js',

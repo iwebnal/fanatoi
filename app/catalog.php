@@ -56,9 +56,13 @@
 								<div class="az-range">
 									<div id="az-slider"></div>
 									<span>Диапазон:</span>
+									<span id="spanMin">1000</span>
 									<input type="text" id="minCost" value="1000"/>
+									<input type="text" id="startCost" value="1000"/>
 									<span> - </span>
+									<span id="spanMax">3000</span>
 									<input type="text" id="maxCost" value="3000"/>
+									<input type="text" id="endCost" value="3000"/>
 									<span>руб.</span>
 								</div>
 								<div class="az-filter-inner">
