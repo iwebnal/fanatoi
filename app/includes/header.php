@@ -65,7 +65,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 				<div class="az-logo">
-					<img src="img/logo.png" alt="logo">
+					<a href="/"><img src="img/logo.png" alt="logo"></a>
 				</div>
 				<a href="#" class="az-cart-menu style2 hidden-sm hidden-md hidden-lg">Каталог</a>
 			</div>
