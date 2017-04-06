@@ -211,9 +211,9 @@
 						</div>
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 							<div class="ah-charbox">
-								<span class="ah-charbox-span">Размер:<span>5x5</span></span>
-								<span class="ah-charbox-span">Материал:<span>Резина</span></span>
-								<span class="ah-charbox-span">Упаковка:<span>Целофан</span></span>
+								<span class="ah-charbox-span"><span>Размер:</span><span>5x5</span></span>
+								<span class="ah-charbox-span"><span>Материал:</span><span>Резина</span></span>
+								<span class="ah-charbox-span"><span>Упаковка:</span><span>Целофан</span></span>
 							</div>
 							<div class="ah-formbox1">
 								<div class="ah-cardproduct-formbox">
