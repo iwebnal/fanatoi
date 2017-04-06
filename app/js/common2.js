@@ -111,12 +111,12 @@ $(function() {
       $(this).next('div').slideToggle(300);
     }
   });
-  $(".az-order-list>div").click(function(){
+  $(".az-order-list .az-order-list-row").click(function(){
     var is_open = true;
     if($(this).children('span:nth-child(5)').css('display') == "none"){
       is_open = false;
     }
-    $(".az-order-list>div").children('span:nth-child(5)').slideUp(300);
+    $(".az-order-list .az-order-list-row").children('span:nth-child(5)').slideUp(300);
     if(!is_open){
       $(this).children('span:nth-child(5)').slideToggle(300);
     }

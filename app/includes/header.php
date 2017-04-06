@@ -44,6 +44,7 @@
 						<a href="#">
 							<span class="az-cart2">
 								<img src="img/az-cart.png" alt="cart" class="az-img-cart2">
+								<img src="img/novelty-icon1.png" alt="cart" class="az-img-cart2">
 								<span class="az-num">: 12</span>
 							</span>
 							<span class="az-cart4">Корзина:&nbsp;&nbsp;12</span>

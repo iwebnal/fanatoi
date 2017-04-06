@@ -300,7 +300,7 @@
 																<label class="az-deliv-checkbox" for="az-pay3">
 																	<div><span class="az-pay-radio-span"></span></div>
 																	<div><div class="az-deliv-img"><img src="img/az-pay-radio3.png" alt=""><img src="img/az-pay-radio3-checked.png" alt=""></div></div>
-																	<div></div>
+																	<div>&nbsp;</div>
 																</label>
 															</div>
 															<div class="az-pay-radio">

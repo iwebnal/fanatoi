@@ -52,13 +52,13 @@
 					<div class="az-lk-table">
 						<span class="az-lk-table-title">Список заказов:</span>
 						<div class="az-order-list">
-							<div class="az-row">
+							<div><div class="az-order-list-row">
 								<span><span class="hidden-sm hidden-md hidden-lg">№</span><span class="hidden-xs">Номер заказа</span></span>
 								<span><span>Дата</span></span>
 								<span><span>Сумма</span></span>
 								<span><span class="hidden-sm hidden-md hidden-lg">Статус</span><span class="hidden-xs">Статус заказа</span></span>
-							</div>
-							<div>
+							</div></div>
+							<div><div class="az-order-list-row">
 								<span><a href="#">1-999-956</a></span>
 								<span>29.12.2017</span>
 								<span>5 867 руб</span>
@@ -129,8 +129,8 @@
 										<!-- </div> -->
 									</div>
 								</span>
-							</div>
-							<div>
+							</div></div>
+							<div><div class="az-order-list-row">
 								<span><a href="#">1-999-956</a></span>
 								<span>29.12.2017</span>
 								<span>10 438 руб.</span>
@@ -201,8 +201,8 @@
 										<!-- </div> -->
 									</div>
 								</span>
-							</div>
-							<div>
+							</div></div>
+							<div><div class="az-order-list-row">
 								<span><a href="#">1-999-956</a></span>
 								<span>29.12.2017</span>
 								<span>5 867 руб</span>
@@ -273,8 +273,8 @@
 										<!-- </div> -->
 									</div>
 								</span>
-							</div>
-							<div>
+							</div></div>
+							<div><div class="az-order-list-row">
 								<span><a href="#">1-999-956</a></span>
 								<span>29.12.2017</span>
 								<span>5 867 руб</span>
@@ -345,8 +345,8 @@
 										<!-- </div> -->
 									</div>
 								</span>
-							</div>
-							<div>
+							</div></div>
+							<div><div class="az-order-list-row">
 								<span><a href="#">1-999-956</a></span>
 								<span>29.12.2017</span>
 								<span>10 438 руб.</span>
@@ -417,8 +417,8 @@
 										<!-- </div> -->
 									</div>
 								</span>
-							</div>
-							<div>
+							</div></div>
+							<div><div class="az-order-list-row">
 								<span><a href="#">1-999-956</a></span>
 								<span>29.12.2017</span>
 								<span>5 867 руб</span>
@@ -489,7 +489,7 @@
 										<!-- </div> -->
 									</div>
 								</span>
-							</div>
+							</div></div>
 						</div>
 						<div class="col-xs-12 az-bg-gray">
 							
