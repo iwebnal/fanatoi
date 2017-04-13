@@ -175,37 +175,37 @@
 							<div class="ah-cardslider">
 								<div class="item" data-hash="zero">
 									<div class="ah-cardslider-imgbox">
-										<img src="img/cardproduct-slider1.png" class="img-responsive" alt="cardproduct-slider1">
+										<img src="img/480.jpg" class="img-responsive" alt="cardproduct-slider1">
 									</div>
 								</div>
 								<div class="item" data-hash="one">
 									<div class="ah-cardslider-imgbox">
-										<img src="img/cardproduct-slider2.jpg" class="img-responsive" alt="cardproduct-slider2">
+										<img src="img/480_1.jpg" class="img-responsive" alt="cardproduct-slider2">
 									</div>
 								</div>
 								<div class="item" data-hash="two">
 									<div class="ah-cardslider-imgbox">
-										<img src="img/cardproduct-slider3.jpg" class="img-responsive" alt="cardproduct-slider3">
+										<img src="img/480.jpg" class="img-responsive" alt="cardproduct-slider3">
 									</div>
 								</div>
 								<div class="item" data-hash="three">
 									<div class="ah-cardslider-imgbox">
-										<img src="img/cardproduct-slider5.jpg" class="img-responsive" alt="cardproduct-slider5">
+										<img src="img/480_1.jpg" class="img-responsive" alt="cardproduct-slider5">
 									</div>
 								</div>
 							</div>
 							<div class="ah-cardslider-dotwrapp">
 								<a class="ah-cardslider-dot" href="#zero">
-									<img src="img/cardproduct-slider1.png" class="img-responsive" alt="cardproduct-slider1">
+									<img src="img/480.jpg" class="img-responsive" alt="cardproduct-slider1">
 								</a>
 								<a class="ah-cardslider-dot" href="#one">
-									<img src="img/cardproduct-slider2.jpg" class="img-responsive" alt="cardproduct-slider2">
+									<img src="img/480_1.jpg" class="img-responsive" alt="cardproduct-slider2">
 								</a>
 								<a class="ah-cardslider-dot" href="#two">
-									<img src="img/cardproduct-slider3.jpg" class="img-responsive" alt="cardproduct-slider3">
+									<img src="img/480.jpg" class="img-responsive" alt="cardproduct-slider3">
 								</a>
 								<a class="ah-cardslider-dot ah-cardslider-dot1" href="#three">
-									<img src="img/cardproduct-slider5.jpg" class="img-responsive" alt="cardproduct-slider5">
+									<img src="img/480_1.jpg" class="img-responsive" alt="cardproduct-slider5">
 								</a>
 							</div>
 						</div>
